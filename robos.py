@@ -2,7 +2,7 @@ import threading
 import time
 import random
 import logging
-
+#teste permissions
 class Robo:
     def __init__(self, id_robo, grid, robots_info, locks):
         self.id = id_robo
