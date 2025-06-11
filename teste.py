@@ -1,14 +1,15 @@
 # teste_memoria_e_robo.py
 
 from multiprocessing import Manager, Lock
-from memoria_compartilhada import MemoriaCompartilhada
+from sincronizacao import inicializar_sincronizacao
 from grid import Grid
 from robos import Robo
 import time
 
 def testar_memoria_e_robo():
     # Inicializando a memória compartilhada e o grid
-    memoria = MemoriaCompartilhada()
+    #posicoes_baterias=[(1, 1), (2, 2)]
+    memoria = inicializar_sincronizacao('''posicoes_baterias''')
     grid = Grid(memoria)
 
     # Criando o robô
@@ -22,6 +23,10 @@ def testar_memoria_e_robo():
     # Colocando o robô no grid
     with memoria.grid_mutex:
         pos = grid.place_robot(robo.id)
+
+    '''# Colocando as baterias no grid
+    with memoria.grid_mutex:
+        grid.place_baterias(posicoes_baterias)'''
 
     # Registrando o robô no dicionário de robôs
     with memoria.robots_mutex:
