@@ -72,6 +72,9 @@ class Robo:
         """
         Lógica de ação do robô (mover, coletar bateria, duelando, etc).
         """
+        # Sincroniza todos os robôs antes de agir
+        self.locks['barrier'].wait()  # Espera até que todos os robôs estejam prontos
+
         while self.running.is_set() and self.status == 'vivo':
             snapshot = self.grid.get_snapshot()
             direction = random.choice(['N', 'S', 'E', 'W'])  # Movimenta aleatoriamente

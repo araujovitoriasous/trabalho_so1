@@ -1,4 +1,4 @@
-from multiprocessing import Manager, Lock
+from multiprocessing import Manager, Lock, Barrier
 
 class MemoriaCompartilhada:
     def __init__(self):
@@ -18,6 +18,9 @@ class MemoriaCompartilhada:
         
         # Dicionário para baterias, cada posição de bateria tem um lock
         self.battery_mutexes = {}
+
+        # Barrier para sincronizar os robôs antes de cada ação
+        self.barrier = Barrier(4)  # temos 4 robôs
 
     def inicializar_baterias(self, posicoes_baterias):
         """
