@@ -35,13 +35,13 @@ def main():
 
     # === Adiciona barreiras fixas no grid ===
     barreiras = []
-    # Barreira horizontal no meio
+    # horizontal no meio
     for x in range(10, 30):
         barreiras.append((x, 10))
-    # Barreira vertical esquerda
+    # vertical esquerda
     for y in range(5, 15):
         barreiras.append((5, y))
-    # Barreira vertical direita
+    # vertical direita
     for y in range(5, 15):
         barreiras.append((34, y))
     grid.place_barreiras(barreiras)
