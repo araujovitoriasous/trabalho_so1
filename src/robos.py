@@ -1,3 +1,4 @@
+import os
 import threading
 import time
 import random
@@ -15,6 +16,17 @@ class Robo:
         self.V = random.randint(1, 5)  # Velocidade do robô
         self.status = 'vivo'  # Status do robô
         self.pos = None  # Posição inicial do robô
+
+        # 🧱 Garante que o diretório de logs exista
+        os.makedirs("logs", exist_ok=True)
+
+        # Configuração de logs
+        logging.basicConfig(
+            filename=f'logs/robo_{self.id}.log',
+            level=logging.INFO,
+            format='%(asctime)s - %(message)s'
+        )
+        logging.info(f'Robo {self.id} criado com F={self.F}, E={self.E}, V={self.V}')
 
         # Evento para controle da execução das threads
         self.running = threading.Event()
