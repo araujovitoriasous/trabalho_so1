@@ -1,8 +1,9 @@
+import os
 import threading
 import time
 import random
 import logging
-#teste permissions
+
 class Robo:
     def __init__(self, id_robo, grid, robots_info, locks):
         self.id = id_robo
@@ -15,19 +16,23 @@ class Robo:
         self.V = random.randint(1, 5)  # Velocidade do robô
         self.status = 'vivo'  # Status do robô
         self.pos = None  # Posição inicial do robô
+        
+        os.makedirs("logs", exist_ok=True)
 
-        # Evento para controle da execução das threads
+        self.logger = logging.getLogger(f"robo_{self.id}")
+        self.logger.setLevel(logging.INFO)
+        if not self.logger.handlers:
+            fh = logging.FileHandler(f"logs/robo_{self.id}.log")
+            fh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
+            self.logger.addHandler(fh)
+        self.logger.info(f"Robo {self.id} criado com F={self.F}, E={self.E}, V={self.V}")
+
         self.running = threading.Event()
         self.running.set()
 
         # Threads do robô
         self.sense_act_thread = threading.Thread(target=self.sense_act, name=f"sense_act_{self.id}")
         self.housekeeping_thread = threading.Thread(target=self.housekeeping, name=f"housekeeping_{self.id}")
-
-        # Configuração de logs
-        logging.basicConfig(filename=f'logs/robo_{self.id}.log', level=logging.INFO,
-                            format='%(asctime)s - %(message)s')
-        logging.info(f'Robo {self.id} criado com F={self.F}, E={self.E}, V={self.V}')
 
     def start(self):
         # Coloca o robô no grid
