@@ -53,25 +53,14 @@ class RoboJogador(Robo):
                 cell = snapshot[target[1]][target[0]]
 
                 if cell == ' ':
-                    self.grid.clear_cell(self.pos)
-                    self.grid.set_cell(target, self.id)
+                    with self.locks['grid_mutex']:
+                        self.grid.clear_cell(self.pos)
+                        self.grid.set_cell(target, self.id)
                     old = self.pos
                     self.pos = target
-                    self.robots_info[self.id]['pos'] = self.pos
+                    with self.locks['robots_mutex']:
+                        self.robots_info[self.id]['pos'] = self.pos
                     stdscr.addstr(20, 0, f"Você moveu de {old} para {self.pos}.\n")
-                elif cell == '⚡':
-                    self.grid.clear_cell(self.pos)
-                    self.grid.clear_cell(target)
-                    self.pos = target
-                    self.grid.set_cell(target, self.id)
-                    self.E = min(self.E + 20, 100)
-                    self.robots_info[self.id]['E'] = self.E
-                    stdscr.addstr(20, 0, f"Você coletou bateria em {self.pos}. Energia = {self.E}.\n")
-                elif isinstance(cell, str) and cell not in ['#']:
-                    stdscr.addstr(20, 0, f"Duelando contra {cell} em {target}...\n")
-                    self.duelo(cell, target)
-                else:
-                    stdscr.addstr(20, 0, "Movimento inválido ou obstáculo.\n")
             
             time.sleep(0.1)  # Pequena pausa entre as iterações
 
