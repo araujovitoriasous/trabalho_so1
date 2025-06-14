@@ -3,7 +3,6 @@ import threading
 import time
 import random
 import logging
-#from multiprocessing import BrokenBarrierError
 
 class Robo:
     def __init__(self, id_robo, grid, robots_info, locks):
@@ -12,37 +11,51 @@ class Robo:
         self.robots_info = robots_info
         self.locks = locks
 
+        # Atributos do robô
         self.F = random.randint(1, 10)  # Força do robô
         self.E = random.randint(10, 100)  # Energia do robô
         self.V = random.randint(1, 5)  # Velocidade do robô
         self.status = 'vivo'  # Status do robô
         self.pos = None  # Posição inicial do robô
         
+        #Setup do logger
         os.makedirs("logs", exist_ok=True)
 
+        os.makedirs("logs", exist_ok=True)
         self.logger = logging.getLogger(f"robo_{self.id}")
-        self.logger.setLevel(logging.INFO)
         if not self.logger.handlers:
             fh = logging.FileHandler(f"logs/robo_{self.id}.log")
             fh.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
             self.logger.addHandler(fh)
+        self.logger.setLevel(logging.INFO)
         self.logger.info(f"Robo {self.id} criado com F={self.F}, E={self.E}, V={self.V}")
 
+        # Evento para controle de execução das threads
         self.running = threading.Event()
         self.running.set()
 
-        # Threads do robô
+        # Criação das threads
         self.sense_act_thread = threading.Thread(target=self.sense_act, name=f"sense_act_{self.id}")
         self.housekeeping_thread = threading.Thread(target=self.housekeeping, name=f"housekeeping_{self.id}")
 
     def start(self):
-        # Coloca o robô no grid
-        with self.locks['grid_mutex']:
-            self.pos = self.grid.place_robot(self.id)
+        """
+        Inicia o robô, posicionando-o na grade e iniciando as threads de ação e manutenção.
+        """
+        # Posiciona o robô na grade
+        self.pos = self.grid.place_robot(self.id)
 
-        # Registra o robô no dicionário de robôs
+        # Armazena as informações do robô
+        robot_data = {
+            'F': self.F,
+            'E': self.E,
+            'V': self.V,
+            'pos': self.pos,
+            'status': self.status
+        }
+        
         with self.locks['robots_mutex']:
-            self.robots_info[self.id] = {'F': self.F, 'E': self.E, 'V': self.V, 'pos': self.pos, 'status': self.status}
+            self.robots_info[self.id] = robot_data
 
         # Inicia as threads do robô
         self.sense_act_thread.start()
@@ -51,6 +64,8 @@ class Robo:
     def stop(self):
         # Encerra as threads do robô
         self.running.clear()
+
+        # Aguarda o término das threads
         self.sense_act_thread.join()
         self.housekeeping_thread.join()
 
@@ -59,37 +74,19 @@ class Robo:
         Calcula a nova posição a partir da direção e o número de passos.
         """
         x, y = self.pos
-        if direction == 'N':  # Norte
-            y = max(y - steps, 0)
-        elif direction == 'S':  # Sul
-            y = min(y + steps, self.grid.height - 1)
-        elif direction == 'E':  # Leste
-            x = min(x + steps, self.grid.width - 1)
-        elif direction == 'W':  # Oeste
-            x = max(x - steps, 0)
-        return (x, y)
+        directions = {
+            'N': lambda pos, steps: (pos[0], max(pos[1] - steps, 0)),
+            'S': lambda pos, steps: (pos[0], min(pos[1] + steps, self.grid.height - 1)),
+            'E': lambda pos, steps: (min(pos[0] + steps, self.grid.width - 1), pos[1]),
+            'W': lambda pos, steps: (max(pos[0] - steps, 0), pos[1]),
+        }
+        return directions[direction]((x, y), steps)
 
     def sense_act(self):
         """
+        Thread principal de ação do robô: movimenta-se aleatoriamente enquanto estiver vivo.
         Lógica de ação do robô (mover, coletar bateria, duelando, etc).
         """
-        # Sincroniza todos os robôs antes de agir
-        #self.locks['barrier'].wait()  # Espera até que todos os robôs estejam prontos
-        # Sincroniza todos os robôs antes de agir (timeout + tratamento de BrokenBarrierError)
-        '''max_retries = 3
-        for attempt in range(1, max_retries + 1):
-            try:
-                # Timeout evita deadlock se algum robô não chegar à barreira
-                self.locks['barrier'].wait(timeout=5)
-                break
-            except BrokenBarrierError:
-                logging.warning(
-                    f'Robo {self.id}: barreira quebrada ou timeout na tentativa {attempt}'
-                )
-                if attempt == max_retries:
-                    logging.error(
-                        f'Robo {self.id}: falha ao sincronizar após {max_retries} tentativas'
-                    )'''
         while self.running.is_set() and self.status == 'vivo':
             snapshot = self.grid.get_snapshot()
             direction = random.choice(['N', 'S', 'E', 'W'])  # Movimenta aleatoriamente
@@ -119,11 +116,11 @@ class Robo:
             time.sleep(1)
             with self.locks['robots_mutex']:
                 self.E -= 1
-                self.robots_info[self.id]['E'] = self.E
+                self.robots_info[self.id].update({'E': self.E})
                 logging.info(f'Robo {self.id} energia restante: {self.E}')
+            
                 if self.E <= 0:
-                    self.status = 'morto'
-                    self.robots_info[self.id]['status'] = 'morto'
+                    self.status = self.robots_info[self.id]['status'] = 'morto'
                     with self.locks['grid_mutex']:
                         self.grid.clear_cell(self.pos)
                     logging.info(f'Robo {self.id} morreu por falta de energia')

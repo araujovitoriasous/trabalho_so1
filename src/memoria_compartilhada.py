@@ -29,9 +29,6 @@ class MemoriaCompartilhada:
             **self.battery_mutexes
         }
 
-    
-
-
     def inicializar_baterias(self, posicoes_baterias):
         """
         Para cada posição de bateria fornecida, cria um lock específico em `battery_mutexes`.

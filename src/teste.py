@@ -1,5 +1,3 @@
-# teste_memoria_e_robo.py
-
 from multiprocessing import Manager, Lock
 from sincronizacao import inicializar_sincronizacao
 from grid import Grid
