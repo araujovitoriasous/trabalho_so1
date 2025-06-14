@@ -1,8 +1,7 @@
 class Grid:
     def __init__(self, memoria):
         self.memoria = memoria
-        self.width = 40  # Largura do grid
-        self.height = 20  # Altura do grid
+        self.width, self.height = 40, 20  # Largura e altura do grid
 
     def get_snapshot(self):
         """
