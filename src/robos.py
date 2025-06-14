@@ -3,6 +3,7 @@ import threading
 import time
 import random
 import logging
+#from multiprocessing import BrokenBarrierError
 
 class Robo:
     def __init__(self, id_robo, grid, robots_info, locks):
@@ -73,8 +74,22 @@ class Robo:
         Lógica de ação do robô (mover, coletar bateria, duelando, etc).
         """
         # Sincroniza todos os robôs antes de agir
-        self.locks['barrier'].wait()  # Espera até que todos os robôs estejam prontos
-
+        #self.locks['barrier'].wait()  # Espera até que todos os robôs estejam prontos
+        # Sincroniza todos os robôs antes de agir (timeout + tratamento de BrokenBarrierError)
+        '''max_retries = 3
+        for attempt in range(1, max_retries + 1):
+            try:
+                # Timeout evita deadlock se algum robô não chegar à barreira
+                self.locks['barrier'].wait(timeout=5)
+                break
+            except BrokenBarrierError:
+                logging.warning(
+                    f'Robo {self.id}: barreira quebrada ou timeout na tentativa {attempt}'
+                )
+                if attempt == max_retries:
+                    logging.error(
+                        f'Robo {self.id}: falha ao sincronizar após {max_retries} tentativas'
+                    )'''
         while self.running.is_set() and self.status == 'vivo':
             snapshot = self.grid.get_snapshot()
             direction = random.choice(['N', 'S', 'E', 'W'])  # Movimenta aleatoriamente
