@@ -1,7 +1,7 @@
-from multiprocessing import Manager, Lock
+from multiprocessing import Manager, Lock, Barrier
 
 class MemoriaCompartilhada:
-    def __init__(self):
+    def __init__(self,qtd_robos=4):
         self.manager = Manager()
         # Cria a matriz 40x20 compartilhada
         self.grid = self.manager.list([self.manager.list([' '] * 40) for _ in range(20)])
@@ -18,6 +18,19 @@ class MemoriaCompartilhada:
         
         # Dicionário para baterias, cada posição de bateria tem um lock
         self.battery_mutexes = {}
+
+        # Barrier para sincronizar os robôs antes de cada ação
+        self.barrier = Barrier(qtd_robos)  # temos {qtd_robos} robôs
+        
+        self.locks = {
+            'grid_mutex': self.grid_mutex,
+            'robots_mutex': self.robots_mutex,
+            'barrier': self.barrier
+            **self.battery_mutexes
+        }
+
+    
+
 
     def inicializar_baterias(self, posicoes_baterias):
         """
