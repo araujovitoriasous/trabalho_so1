@@ -34,5 +34,7 @@ class MemoriaCompartilhada:
         Para cada posição de bateria fornecida, cria um lock específico em `battery_mutexes`.
         Isso impede que dois robôs tentem pegar a mesma bateria ao mesmo tempo.
         """
+        self.battery_mutexes = self.manager.dict()
         for pos in posicoes_baterias:
             self.battery_mutexes[pos] = Lock()
+        self.locks.update(self.battery_mutexes)

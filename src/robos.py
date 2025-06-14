@@ -20,8 +20,6 @@ class Robo:
         
         #Setup do logger
         os.makedirs("logs", exist_ok=True)
-
-        os.makedirs("logs", exist_ok=True)
         self.logger = logging.getLogger(f"robo_{self.id}")
         if not self.logger.handlers:
             fh = logging.FileHandler(f"logs/robo_{self.id}.log")
@@ -44,7 +42,9 @@ class Robo:
         """
         # Posiciona o robô na grade
         self.pos = self.grid.place_robot(self.id)
-
+        if self.pos is None:
+            raise RuntimeError(f"Failed to place robot with id {self.id} on grid")
+    
         # Armazena as informações do robô
         robot_data = {
             'F': self.F,
@@ -56,18 +56,26 @@ class Robo:
         
         with self.locks['robots_mutex']:
             self.robots_info[self.id] = robot_data
-
+    
         # Inicia as threads do robô
-        self.sense_act_thread.start()
-        self.housekeeping_thread.start()
+        try:
+            self.sense_act_thread.start()
+        except RuntimeError:
+            pass
+        try:
+            self.housekeeping_thread.start()
+        except RuntimeError:
+            pass
 
     def stop(self):
         # Encerra as threads do robô
         self.running.clear()
 
         # Aguarda o término das threads
-        self.sense_act_thread.join()
-        self.housekeeping_thread.join()
+        if self.sense_act_thread.is_alive():
+            self.sense_act_thread.join()
+        if self.housekeeping_thread.is_alive():
+            self.housekeeping_thread.join()
 
     def calculate_new_pos(self, direction, steps):
         """
@@ -88,24 +96,21 @@ class Robo:
         Lógica de ação do robô (mover, coletar bateria, duelando, etc).
         """
         while self.running.is_set() and self.status == 'vivo':
-            snapshot = self.grid.get_snapshot()
             direction = random.choice(['N', 'S', 'E', 'W'])  # Movimenta aleatoriamente
             steps = random.randint(1, self.V)  # Número de passos
             target = self.calculate_new_pos(direction, steps)  # Calcula nova posição
-
-            # Verifica se a célula está livre, se for, move o robô
-            if snapshot[target[1]][target[0]] == ' ':
-                with self.locks['grid_mutex']:
-                    self.grid.clear_cell(self.pos)
-                    self.grid.set_cell(target, self.id)
-                    old = self.pos
-                    self.pos = target
-
+            with self.locks['grid_mutex']:
+                snapshot = self.grid.get_snapshot()
+                free = snapshot[target[1]][target[0]] == ' '
+            if free:
+                old = self.pos
                 with self.locks['robots_mutex']:
+                    with self.locks['grid_mutex']:
+                        self.grid.clear_cell(old)
+                        self.grid.set_cell(target, self.id)
+                    self.pos = target
                     self.robots_info[self.id]['pos'] = self.pos
-
-                logging.info(f'Robo {self.id} moveu de {old} para {self.pos}')
-
+                self.logger.info(f'Robo {self.id} moveu de {old} para {self.pos}')
             time.sleep(0.5)  # Intervalo entre as ações
 
     def housekeeping(self):
@@ -117,12 +122,13 @@ class Robo:
             with self.locks['robots_mutex']:
                 self.E -= 1
                 self.robots_info[self.id].update({'E': self.E})
-                logging.info(f'Robo {self.id} energia restante: {self.E}')
-            
-                if self.E <= 0:
-                    self.status = self.robots_info[self.id]['status'] = 'morto'
-                    with self.locks['grid_mutex']:
-                        self.grid.clear_cell(self.pos)
-                    logging.info(f'Robo {self.id} morreu por falta de energia')
-                    self.running.clear()
+            self.logger.info(f'Robo {self.id} energia restante: {self.E}')
+            if self.E <= 0:
+                with self.locks['grid_mutex']:
+                    self.grid.clear_cell(self.pos)
+                with self.locks['robots_mutex']:
+                    self.status = 'morto'
+                    self.robots_info[self.id].update({'status': 'morto'})
+                self.logger.info(f'Robo {self.id} morreu por falta de energia')
+                self.running.clear()
 
