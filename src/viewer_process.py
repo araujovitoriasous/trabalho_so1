@@ -11,12 +11,12 @@ class MemoriaMock:
         self.grid = [[' ' for _ in range(40)] for _ in range(20)]
 
 # Função que imprime o grid
-def render_grid(grid: Grid):
+def render_grid(memoria):
     clear_screen = "\033c"
-    border = "+" + "-" * grid.width + "+"
+    border = "+" + "-" * memoria.grid.width + "+"
 
     while True:
-        snapshot = grid.get_snapshot()
+        snapshot = memoria.grid.get_snapshot()
 
         print(clear_screen, end="")
         print(border)

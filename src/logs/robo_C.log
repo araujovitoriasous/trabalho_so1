@@ -1,1 +1,73 @@
 2025-06-13 09:50:22,811 - Robo C criado com F=5, E=69, V=5
+2025-06-14 13:40:48,023 - Robo C criado com F=9, E=72, V=1
+2025-06-14 13:40:48,040 - Robo C moveu de (0, 0) para (1, 0)
+2025-06-14 13:40:48,540 - Robo C moveu de (1, 0) para (1, 1)
+2025-06-14 13:40:49,040 - Robo C energia restante: 71
+2025-06-14 13:40:49,041 - Robo C moveu de (1, 1) para (2, 1)
+2025-06-14 13:40:49,542 - Robo C moveu de (2, 1) para (2, 2)
+2025-06-14 13:40:50,042 - Robo C energia restante: 70
+2025-06-14 13:40:50,043 - Robo C moveu de (2, 2) para (2, 1)
+2025-06-14 13:40:50,544 - Robo C moveu de (2, 1) para (1, 1)
+2025-06-14 13:40:51,042 - Robo C energia restante: 69
+2025-06-14 13:40:51,045 - Robo C moveu de (1, 1) para (1, 2)
+2025-06-14 13:40:51,545 - Robo C moveu de (1, 2) para (2, 2)
+2025-06-14 13:40:52,043 - Robo C energia restante: 68
+2025-06-14 13:40:52,046 - Robo C moveu de (2, 2) para (2, 1)
+2025-06-14 13:40:52,547 - Robo C moveu de (2, 1) para (2, 0)
+2025-06-14 13:40:53,044 - Robo C energia restante: 67
+2025-06-14 13:40:53,049 - Robo C moveu de (2, 0) para (1, 0)
+2025-06-14 13:40:54,045 - Robo C energia restante: 66
+2025-06-14 13:40:54,050 - Robo C moveu de (1, 0) para (0, 0)
+2025-06-14 13:40:54,552 - Robo C moveu de (0, 0) para (1, 0)
+2025-06-14 13:40:55,046 - Robo C energia restante: 65
+2025-06-14 13:40:55,053 - Robo C moveu de (1, 0) para (2, 0)
+2025-06-14 13:40:55,554 - Robo C moveu de (2, 0) para (3, 0)
+2025-06-14 13:40:56,046 - Robo C energia restante: 64
+2025-06-14 13:40:56,055 - Robo C moveu de (3, 0) para (2, 0)
+2025-06-14 13:40:56,556 - Robo C moveu de (2, 0) para (2, 1)
+2025-06-14 13:40:57,047 - Robo C energia restante: 63
+2025-06-14 13:40:57,057 - Robo C moveu de (2, 1) para (2, 0)
+2025-06-14 13:40:58,049 - Robo C energia restante: 62
+2025-06-14 13:40:58,058 - Robo C moveu de (2, 0) para (2, 1)
+2025-06-14 13:40:58,559 - Robo C moveu de (2, 1) para (3, 1)
+2025-06-14 13:40:59,050 - Robo C energia restante: 61
+2025-06-14 13:40:59,060 - Robo C moveu de (3, 1) para (2, 1)
+2025-06-14 13:40:59,561 - Robo C moveu de (2, 1) para (3, 1)
+2025-06-14 13:41:00,051 - Robo C energia restante: 60
+2025-06-14 13:41:00,062 - Robo C moveu de (3, 1) para (3, 2)
+2025-06-14 13:41:00,563 - Robo C moveu de (3, 2) para (3, 1)
+2025-06-14 13:41:01,052 - Robo C energia restante: 59
+2025-06-14 13:41:01,063 - Robo C moveu de (3, 1) para (3, 0)
+2025-06-14 13:41:01,590 - Robo C moveu de (3, 0) para (3, 1)
+2025-06-14 13:41:02,065 - Robo C energia restante: 58
+2025-06-14 13:41:02,092 - Robo C moveu de (3, 1) para (2, 1)
+2025-06-14 13:41:02,593 - Robo C moveu de (2, 1) para (1, 1)
+2025-06-14 13:41:03,066 - Robo C energia restante: 57
+2025-06-14 13:41:03,595 - Robo C moveu de (1, 1) para (0, 1)
+2025-06-14 13:41:04,068 - Robo C energia restante: 56
+2025-06-14 13:41:04,096 - Robo C moveu de (0, 1) para (0, 0)
+2025-06-14 13:41:05,069 - Robo C energia restante: 55
+2025-06-14 13:41:05,598 - Robo C moveu de (0, 0) para (1, 0)
+2025-06-14 13:41:06,070 - Robo C energia restante: 54
+2025-06-14 13:41:06,098 - Robo C moveu de (1, 0) para (2, 0)
+2025-06-14 13:41:06,599 - Robo C moveu de (2, 0) para (3, 0)
+2025-06-14 13:41:07,071 - Robo C energia restante: 53
+2025-06-14 13:41:07,100 - Robo C moveu de (3, 0) para (2, 0)
+2025-06-14 13:41:08,072 - Robo C energia restante: 52
+2025-06-14 13:41:08,101 - Robo C moveu de (2, 0) para (2, 1)
+2025-06-14 13:41:08,602 - Robo C moveu de (2, 1) para (2, 2)
+2025-06-14 13:41:09,073 - Robo C energia restante: 51
+2025-06-14 13:41:09,103 - Robo C moveu de (2, 2) para (2, 1)
+2025-06-14 13:41:09,604 - Robo C moveu de (2, 1) para (1, 1)
+2025-06-14 13:41:10,074 - Robo C energia restante: 50
+2025-06-14 13:41:10,105 - Robo C moveu de (1, 1) para (2, 1)
+2025-06-14 13:41:10,607 - Robo C moveu de (2, 1) para (1, 1)
+2025-06-14 13:41:11,075 - Robo C energia restante: 49
+2025-06-14 13:41:11,110 - Robo C moveu de (1, 1) para (1, 0)
+2025-06-14 13:41:11,611 - Robo C moveu de (1, 0) para (1, 1)
+2025-06-14 13:41:12,077 - Robo C energia restante: 48
+2025-06-14 13:41:12,112 - Robo C moveu de (1, 1) para (0, 1)
+2025-06-14 13:41:12,613 - Robo C moveu de (0, 1) para (0, 0)
+2025-06-14 13:41:13,079 - Robo C energia restante: 47
+2025-06-14 13:41:13,115 - Robo C moveu de (0, 0) para (1, 0)
+2025-06-14 13:41:13,616 - Robo C moveu de (1, 0) para (0, 0)

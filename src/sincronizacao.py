@@ -1,14 +1,20 @@
-from memoria_compartilhada import MemoriaCompartilhada
+from multiprocessing import Lock
 
-def inicializar_sincronizacao(posicoes_baterias=None):
+def inicializar_locks(memoria):
     """
-    Inicializa a memória compartilhada e todos os mutexes necessários.
-    :param posicoes_baterias: Lista opcional de posições de baterias a inicializar.
-    :return: Instância de MemoriaCompartilhada pronta para uso.
+    Inicializa todos os locks necessários para proteger a memória compartilhada.
+    Retorna um dicionário com os locks.
     """
-    memoria = MemoriaCompartilhada()
+    locks = {}
 
-    if posicoes_baterias:
-        memoria.inicializar_baterias(posicoes_baterias)
+    # Locks para o grid
+    locks['grid_mutex'] = Lock()
 
-    return memoria
+    # Locks para os robôs
+    locks['robots_mutex'] = Lock()
+
+    # Locks para as baterias (um lock por bateria)
+    locks['battery_mutexes'] = {}
+
+    # Retorna todos os locks
+    return locks
