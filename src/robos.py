@@ -60,12 +60,12 @@ class Robo:
         # Inicia as threads do robô
         try:
             self.sense_act_thread.start()
-        except RuntimeError:
-            pass
+        except RuntimeError as e:
+            self.logger.error(f"Failed to start sense_act_thread for Robo {self.id}: {e}")
         try:
             self.housekeeping_thread.start()
-        except RuntimeError:
-            pass
+        except RuntimeError as e:
+            self.logger.error(f"Failed to start housekeeping_thread for Robo {self.id}: {e}")
 
     def stop(self):
         # Encerra as threads do robô
@@ -104,8 +104,8 @@ class Robo:
                 free = snapshot[target[1]][target[0]] == ' '
             if free:
                 old = self.pos
-                with self.locks['robots_mutex']:
-                    with self.locks['grid_mutex']:
+                with self.locks['grid_mutex']:
+                    with self.locks['robots_mutex']:
                         self.grid.clear_cell(old)
                         self.grid.set_cell(target, self.id)
                     self.pos = target
@@ -131,4 +131,3 @@ class Robo:
                     self.robots_info[self.id].update({'status': 'morto'})
                 self.logger.info(f'Robo {self.id} morreu por falta de energia')
                 self.running.clear()
-

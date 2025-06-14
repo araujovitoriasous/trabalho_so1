@@ -22,6 +22,8 @@ class MemoriaCompartilhada:
             'barrier': Barrier(qtd_robos),  # temos {qtd_robos} robôs
             **self.manager.dict()  # Dicionário para baterias, cada posição de bateria tem um lock
         }
+        self.grid_mutex   = self.locks['grid_mutex']
+        self.robots_mutex = self.locks['robots_mutex']
 
     def inicializar_baterias(self, posicoes_baterias):
         """
