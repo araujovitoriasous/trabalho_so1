@@ -1,5 +1,3 @@
-# teste_memoria_e_robo.py
-
 from multiprocessing import Manager, Lock
 from sincronizacao import inicializar_sincronizacao
 from grid import Grid
@@ -24,16 +22,19 @@ def testar_memoria_e_robo():
     with memoria.grid_mutex:
         pos = grid.place_robot(robo.id)
 
-    '''# Colocando as baterias no grid
-    with memoria.grid_mutex:
-        grid.place_baterias(posicoes_baterias)'''
-
     # Registrando o robô no dicionário de robôs
     with memoria.robots_mutex:
-        memoria.robots_info[robo.id] = {'F': robo.F, 'E': robo.E, 'V': robo.V, 'pos': pos, 'status': 'vivo'}
+        memoria.robots_info[robo.id] = {
+            'F': robo.F,
+            'E': robo.E,
+            'V': robo.V,
+            'pos': pos,
+            'status': 'vivo'
+        }
 
     # Verificando se o robô foi corretamente posicionado e registrado
-    print(f"Posição do robô {robo.id}: {memoria.robots_info[robo.id]['pos']}")
+    robo_info = memoria.robots_info[robo.id]
+    print(f"Posição do robô {robo.id}: {robo_info['pos']}")
     snapshot = grid.get_snapshot()
 
     # Mostra a posição do robô no grid
@@ -53,5 +54,3 @@ def testar_memoria_e_robo():
 
 if __name__ == "__main__":
     testar_memoria_e_robo()
-
-
