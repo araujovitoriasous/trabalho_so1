@@ -16,21 +16,17 @@ class MemoriaCompartilhada:
         self.flags = self.manager.dict({'init_done': False, 'vencedor': None})
 
         # Mutexes para sincronização
-        self.locks = {
-            'grid_mutex': Lock(),  # Protege a manipulação do grid
-            'robots_mutex': Lock(),  # Protege a manipulação dos robôs no dicionário
-            'barrier': Barrier(qtd_robos),  # temos {qtd_robos} robôs
-            **self.manager.dict()  # Dicionário para baterias, cada posição de bateria tem um lock
-        }
-        self.grid_mutex   = self.locks['grid_mutex']
-        self.robots_mutex = self.locks['robots_mutex']
+        # Inicializa os locks
+        self.grid_mutex = Lock()  # Protege o grid
+        self.robots_mutex = Lock()  # Protege os dados dos robôs
+        self.battery_mutexes = {}  # Mutexes para baterias
+
 
     def inicializar_baterias(self, posicoes_baterias):
         """
         Para cada posição de bateria fornecida, cria um lock específico em `battery_mutexes`.
         Isso impede que dois robôs tentem pegar a mesma bateria ao mesmo tempo.
         """
-        self.battery_mutexes = self.manager.dict()
         for pos in posicoes_baterias:
+            # Cada bateria terá seu próprio lock, sem usar o Manager
             self.battery_mutexes[pos] = Lock()
-        self.locks.update(self.battery_mutexes)

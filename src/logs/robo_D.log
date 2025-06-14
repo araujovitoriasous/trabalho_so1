@@ -1,1 +1,74 @@
 2025-06-13 09:50:22,814 - Robo D criado com F=4, E=76, V=5
+2025-06-14 13:40:48,036 - Robo D criado com F=1, E=31, V=3
+2025-06-14 13:40:49,042 - Robo D energia restante: 30
+2025-06-14 13:40:49,542 - Robo D moveu de (0, 0) para (0, 1)
+2025-06-14 13:40:50,042 - Robo D energia restante: 29
+2025-06-14 13:40:50,043 - Robo D moveu de (0, 1) para (3, 1)
+2025-06-14 13:40:50,543 - Robo D moveu de (3, 1) para (5, 1)
+2025-06-14 13:40:51,043 - Robo D energia restante: 28
+2025-06-14 13:40:51,044 - Robo D moveu de (5, 1) para (5, 3)
+2025-06-14 13:40:51,545 - Robo D moveu de (5, 3) para (5, 4)
+2025-06-14 13:40:52,044 - Robo D energia restante: 27
+2025-06-14 13:40:52,046 - Robo D moveu de (5, 4) para (2, 4)
+2025-06-14 13:40:52,547 - Robo D moveu de (2, 4) para (2, 7)
+2025-06-14 13:40:53,044 - Robo D energia restante: 26
+2025-06-14 13:40:53,049 - Robo D moveu de (2, 7) para (2, 6)
+2025-06-14 13:40:53,550 - Robo D moveu de (2, 6) para (2, 9)
+2025-06-14 13:40:54,045 - Robo D energia restante: 25
+2025-06-14 13:40:54,051 - Robo D moveu de (2, 9) para (2, 10)
+2025-06-14 13:40:54,552 - Robo D moveu de (2, 10) para (0, 10)
+2025-06-14 13:40:55,046 - Robo D energia restante: 24
+2025-06-14 13:40:55,053 - Robo D moveu de (0, 10) para (0, 12)
+2025-06-14 13:40:55,554 - Robo D moveu de (0, 12) para (0, 11)
+2025-06-14 13:40:56,046 - Robo D energia restante: 23
+2025-06-14 13:40:56,055 - Robo D moveu de (0, 11) para (0, 12)
+2025-06-14 13:40:57,048 - Robo D energia restante: 22
+2025-06-14 13:40:57,056 - Robo D moveu de (0, 12) para (0, 13)
+2025-06-14 13:40:57,557 - Robo D moveu de (0, 13) para (3, 13)
+2025-06-14 13:40:58,048 - Robo D energia restante: 21
+2025-06-14 13:40:58,058 - Robo D moveu de (3, 13) para (6, 13)
+2025-06-14 13:40:58,559 - Robo D moveu de (6, 13) para (6, 10)
+2025-06-14 13:40:59,050 - Robo D energia restante: 20
+2025-06-14 13:40:59,060 - Robo D moveu de (6, 10) para (9, 10)
+2025-06-14 13:40:59,561 - Robo D moveu de (9, 10) para (9, 13)
+2025-06-14 13:41:00,050 - Robo D energia restante: 19
+2025-06-14 13:41:00,062 - Robo D moveu de (9, 13) para (9, 15)
+2025-06-14 13:41:00,563 - Robo D moveu de (9, 15) para (8, 15)
+2025-06-14 13:41:01,052 - Robo D energia restante: 18
+2025-06-14 13:41:01,064 - Robo D moveu de (8, 15) para (5, 15)
+2025-06-14 13:41:01,592 - Robo D moveu de (5, 15) para (5, 16)
+2025-06-14 13:41:02,090 - Robo D energia restante: 17
+2025-06-14 13:41:02,093 - Robo D moveu de (5, 16) para (6, 16)
+2025-06-14 13:41:02,594 - Robo D moveu de (6, 16) para (5, 16)
+2025-06-14 13:41:03,091 - Robo D energia restante: 16
+2025-06-14 13:41:03,095 - Robo D moveu de (5, 16) para (2, 16)
+2025-06-14 13:41:03,596 - Robo D moveu de (2, 16) para (2, 13)
+2025-06-14 13:41:04,092 - Robo D energia restante: 15
+2025-06-14 13:41:04,097 - Robo D moveu de (2, 13) para (2, 12)
+2025-06-14 13:41:04,597 - Robo D moveu de (2, 12) para (3, 12)
+2025-06-14 13:41:05,092 - Robo D energia restante: 14
+2025-06-14 13:41:05,099 - Robo D moveu de (3, 12) para (2, 12)
+2025-06-14 13:41:05,599 - Robo D moveu de (2, 12) para (2, 9)
+2025-06-14 13:41:06,094 - Robo D energia restante: 13
+2025-06-14 13:41:06,100 - Robo D moveu de (2, 9) para (2, 6)
+2025-06-14 13:41:06,601 - Robo D moveu de (2, 6) para (2, 5)
+2025-06-14 13:41:07,094 - Robo D energia restante: 12
+2025-06-14 13:41:07,602 - Robo D moveu de (2, 5) para (3, 5)
+2025-06-14 13:41:08,095 - Robo D energia restante: 11
+2025-06-14 13:41:08,108 - Robo D moveu de (3, 5) para (3, 4)
+2025-06-14 13:41:08,609 - Robo D moveu de (3, 4) para (3, 3)
+2025-06-14 13:41:09,096 - Robo D energia restante: 10
+2025-06-14 13:41:09,110 - Robo D moveu de (3, 3) para (3, 1)
+2025-06-14 13:41:09,610 - Robo D moveu de (3, 1) para (0, 1)
+2025-06-14 13:41:10,097 - Robo D energia restante: 9
+2025-06-14 13:41:10,111 - Robo D moveu de (0, 1) para (0, 4)
+2025-06-14 13:41:10,612 - Robo D moveu de (0, 4) para (1, 4)
+2025-06-14 13:41:11,098 - Robo D energia restante: 8
+2025-06-14 13:41:11,114 - Robo D moveu de (1, 4) para (0, 4)
+2025-06-14 13:41:11,615 - Robo D moveu de (0, 4) para (1, 4)
+2025-06-14 13:41:12,099 - Robo D energia restante: 7
+2025-06-14 13:41:12,116 - Robo D moveu de (1, 4) para (0, 4)
+2025-06-14 13:41:12,617 - Robo D moveu de (0, 4) para (2, 4)
+2025-06-14 13:41:13,101 - Robo D energia restante: 6
+2025-06-14 13:41:13,118 - Robo D moveu de (2, 4) para (2, 5)
+2025-06-14 13:41:13,619 - Robo D moveu de (2, 5) para (2, 4)
