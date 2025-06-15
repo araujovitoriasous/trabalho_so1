@@ -4,7 +4,7 @@ Este projeto simula robôs autônomos e um robô controlado pelo jogador em um g
 
 ## Estrutura do Projeto
 
-```
+```plaintext
 src/
     grid.py                 # Lógica do grid (matriz)
     memoria_compartilhada.py# Memória compartilhada entre processos
@@ -20,14 +20,7 @@ logs/                       # Logs dos robôs
 
 ## Como Executar
 
-1. **Instale as dependências** (Python 3.10+ recomendado):
-
-```sh
-pip install -r requirements.txt
-```
-*(Se não houver requirements.txt, instale manualmente: `pip install windows-curses` para Windows, se for usar o modo jogador.)*
-
-2. **Execute o simulador:**
+**Execute o simulador:**
 
 - Para rodar o modo normal (jogo com robôs e jogador):
 
