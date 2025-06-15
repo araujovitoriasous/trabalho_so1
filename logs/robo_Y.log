@@ -1,0 +1,55 @@
+2025-06-15 18:59:05,123 - Robo Y criado com F=7, E=27, V=4
+2025-06-15 18:59:05,167 - Y tentando grid_mutex
+2025-06-15 18:59:05,167 - Y obteve grid_mutex
+2025-06-15 18:59:05,167 - Y tentando battery_mutex
+2025-06-15 18:59:06,143 - Robo Y energia restante: 26
+2025-06-15 18:59:10,079 - Robo Y energia restante: 25
+2025-06-15 18:59:11,080 - Robo Y energia restante: 24
+2025-06-15 18:59:14,105 - Robo Y criado com F=9, E=44, V=3
+2025-06-15 18:59:14,147 - Y tentando grid_mutex
+2025-06-15 18:59:14,148 - Y obteve grid_mutex
+2025-06-15 18:59:14,148 - Y tentando battery_mutex
+2025-06-15 18:59:15,126 - Robo Y energia restante: 43
+2025-06-15 18:59:16,127 - Robo Y energia restante: 42
+2025-06-15 18:59:17,129 - Robo Y energia restante: 41
+2025-06-15 18:59:18,131 - Robo Y energia restante: 40
+2025-06-15 18:59:19,132 - Robo Y energia restante: 39
+2025-06-15 18:59:20,134 - Robo Y energia restante: 38
+2025-06-15 18:59:21,135 - Robo Y energia restante: 37
+2025-06-15 18:59:22,136 - Robo Y energia restante: 36
+2025-06-15 18:59:23,137 - Robo Y energia restante: 35
+2025-06-15 18:59:24,138 - Robo Y energia restante: 34
+2025-06-15 18:59:25,139 - Robo Y energia restante: 33
+2025-06-15 18:59:26,141 - Robo Y energia restante: 32
+2025-06-15 18:59:27,142 - Robo Y energia restante: 31
+2025-06-15 18:59:28,144 - Robo Y energia restante: 30
+2025-06-15 18:59:29,146 - Robo Y energia restante: 29
+2025-06-15 18:59:30,148 - Robo Y energia restante: 28
+2025-06-15 18:59:31,149 - Robo Y energia restante: 27
+2025-06-15 18:59:32,151 - Robo Y energia restante: 26
+2025-06-15 18:59:33,152 - Robo Y energia restante: 25
+2025-06-15 18:59:34,154 - Robo Y energia restante: 24
+2025-06-15 18:59:35,156 - Robo Y energia restante: 23
+2025-06-15 18:59:36,157 - Robo Y energia restante: 22
+2025-06-15 18:59:37,159 - Robo Y energia restante: 21
+2025-06-15 18:59:38,160 - Robo Y energia restante: 20
+2025-06-15 18:59:39,162 - Robo Y energia restante: 19
+2025-06-15 18:59:40,163 - Robo Y energia restante: 18
+2025-06-15 18:59:41,165 - Robo Y energia restante: 17
+2025-06-15 18:59:45,099 - Robo Y energia restante: 16
+2025-06-15 18:59:46,101 - Robo Y energia restante: 15
+2025-06-15 18:59:47,103 - Robo Y energia restante: 14
+2025-06-15 18:59:48,105 - Robo Y energia restante: 13
+2025-06-15 18:59:49,106 - Robo Y energia restante: 12
+2025-06-15 18:59:50,145 - Robo Y energia restante: 11
+2025-06-15 18:59:51,147 - Robo Y energia restante: 10
+2025-06-15 18:59:52,149 - Robo Y energia restante: 9
+2025-06-15 18:59:53,150 - Robo Y energia restante: 8
+2025-06-15 18:59:54,152 - Robo Y energia restante: 7
+2025-06-15 18:59:55,154 - Robo Y energia restante: 6
+2025-06-15 18:59:56,155 - Robo Y energia restante: 5
+2025-06-15 18:59:57,157 - Robo Y energia restante: 4
+2025-06-15 18:59:58,159 - Robo Y energia restante: 3
+2025-06-15 18:59:59,160 - Robo Y energia restante: 2
+2025-06-15 19:00:00,162 - Robo Y energia restante: 1
+2025-06-15 19:00:01,163 - Robo Y energia restante: 0

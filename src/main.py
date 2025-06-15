@@ -6,6 +6,7 @@ from viewer_process import render_grid
 from robo_jogador import RoboJogador
 from robos import Robo
 import time
+from main_deadlock import main_deadlock
 
 def main():
     # Inicializa a memória compartilhada e o grid
@@ -53,4 +54,8 @@ def main():
         print("Jogo encerrado.")
 
 if __name__ == "__main__":
-    main()
+    modo = "deadlock"  # "deadlock" ou "normal"
+    if modo == "deadlock":
+        main_deadlock()
+    else:
+        main()
