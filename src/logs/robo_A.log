@@ -1,1 +1,105 @@
 2025-06-13 09:50:22,803 - Robo A criado com F=8, E=78, V=2
+2025-06-14 13:40:47,996 - Robo A criado com F=8, E=54, V=5
+2025-06-14 13:40:48,037 - Robo A moveu de (0, 0) para (5, 0)
+2025-06-14 13:40:48,538 - Robo A moveu de (5, 0) para (5, 2)
+2025-06-14 13:40:49,038 - Robo A energia restante: 53
+2025-06-14 13:40:49,039 - Robo A moveu de (5, 2) para (8, 2)
+2025-06-14 13:40:49,540 - Robo A moveu de (8, 2) para (8, 3)
+2025-06-14 13:40:50,039 - Robo A energia restante: 52
+2025-06-14 13:40:50,041 - Robo A moveu de (8, 3) para (12, 3)
+2025-06-14 13:40:50,542 - Robo A moveu de (12, 3) para (10, 3)
+2025-06-14 13:40:51,040 - Robo A energia restante: 51
+2025-06-14 13:40:51,043 - Robo A moveu de (10, 3) para (10, 1)
+2025-06-14 13:40:51,544 - Robo A moveu de (10, 1) para (10, 0)
+2025-06-14 13:40:52,042 - Robo A energia restante: 50
+2025-06-14 13:40:53,043 - Robo A energia restante: 49
+2025-06-14 13:40:53,046 - Robo A moveu de (10, 0) para (10, 1)
+2025-06-14 13:40:53,547 - Robo A moveu de (10, 1) para (10, 3)
+2025-06-14 13:40:54,044 - Robo A energia restante: 48
+2025-06-14 13:40:54,049 - Robo A moveu de (10, 3) para (9, 3)
+2025-06-14 13:40:54,550 - Robo A moveu de (9, 3) para (6, 3)
+2025-06-14 13:40:55,045 - Robo A energia restante: 47
+2025-06-14 13:40:55,051 - Robo A moveu de (6, 3) para (6, 0)
+2025-06-14 13:40:56,046 - Robo A energia restante: 46
+2025-06-14 13:40:57,047 - Robo A energia restante: 45
+2025-06-14 13:40:57,553 - Robo A moveu de (6, 0) para (6, 3)
+2025-06-14 13:40:58,048 - Robo A energia restante: 44
+2025-06-14 13:40:58,054 - Robo A moveu de (6, 3) para (6, 0)
+2025-06-14 13:40:59,049 - Robo A energia restante: 43
+2025-06-14 13:40:59,556 - Robo A moveu de (6, 0) para (5, 0)
+2025-06-14 13:41:00,051 - Robo A energia restante: 42
+2025-06-14 13:41:00,057 - Robo A moveu de (5, 0) para (5, 1)
+2025-06-14 13:41:00,558 - Robo A moveu de (5, 1) para (5, 0)
+2025-06-14 13:41:01,052 - Robo A energia restante: 41
+2025-06-14 13:41:01,560 - Robo A moveu de (5, 0) para (5, 2)
+2025-06-14 13:41:02,061 - Robo A moveu de (5, 2) para (5, 1)
+2025-06-14 13:41:02,089 - Robo A energia restante: 40
+2025-06-14 13:41:03,063 - Robo A moveu de (5, 1) para (2, 1)
+2025-06-14 13:41:03,090 - Robo A energia restante: 39
+2025-06-14 13:41:03,564 - Robo A moveu de (2, 1) para (2, 6)
+2025-06-14 13:41:04,065 - Robo A moveu de (2, 6) para (7, 6)
+2025-06-14 13:41:04,091 - Robo A energia restante: 38
+2025-06-14 13:41:04,566 - Robo A moveu de (7, 6) para (4, 6)
+2025-06-14 13:41:05,067 - Robo A moveu de (4, 6) para (7, 6)
+2025-06-14 13:41:05,093 - Robo A energia restante: 37
+2025-06-14 13:41:05,569 - Robo A moveu de (7, 6) para (3, 6)
+2025-06-14 13:41:06,070 - Robo A moveu de (3, 6) para (0, 6)
+2025-06-14 13:41:06,093 - Robo A energia restante: 36
+2025-06-14 13:41:06,571 - Robo A moveu de (0, 6) para (0, 2)
+2025-06-14 13:41:07,094 - Robo A energia restante: 35
+2025-06-14 13:41:07,572 - Robo A moveu de (0, 2) para (0, 1)
+2025-06-14 13:41:08,073 - Robo A moveu de (0, 1) para (0, 0)
+2025-06-14 13:41:08,095 - Robo A energia restante: 34
+2025-06-14 13:41:08,574 - Robo A moveu de (0, 0) para (1, 0)
+2025-06-14 13:41:09,096 - Robo A energia restante: 33
+2025-06-14 13:41:10,075 - Robo A moveu de (1, 0) para (1, 5)
+2025-06-14 13:41:10,097 - Robo A energia restante: 32
+2025-06-14 13:41:10,576 - Robo A moveu de (1, 5) para (0, 5)
+2025-06-14 13:41:11,098 - Robo A energia restante: 31
+2025-06-14 13:41:12,100 - Robo A energia restante: 30
+2025-06-14 14:07:43,308 - Robo A criado com F=6, E=75, V=2
+2025-06-14 14:07:43,641 - Robo A moveu de (1, 0) para (1, 2)
+2025-06-14 14:07:44,447 - Robo A energia restante: 74
+2025-06-14 14:07:44,457 - Robo A moveu de (1, 2) para (1, 4)
+2025-06-14 14:07:45,202 - Robo A moveu de (1, 4) para (1, 5)
+2025-06-14 14:07:45,448 - Robo A energia restante: 73
+2025-06-14 14:07:45,955 - Robo A moveu de (1, 5) para (2, 5)
+2025-06-14 14:07:57,170 - Robo A criado com F=6, E=100, V=5
+2025-06-14 14:07:57,491 - Robo A moveu de (1, 0) para (6, 0)
+2025-06-14 14:07:58,233 - Robo A energia restante: 99
+2025-06-14 14:07:58,307 - Robo A moveu de (6, 0) para (5, 0)
+2025-06-14 14:07:59,234 - Robo A energia restante: 98
+2025-06-14 14:07:59,798 - Robo A moveu de (5, 0) para (5, 3)
+2025-06-14 14:08:00,236 - Robo A energia restante: 97
+2025-06-14 14:08:00,634 - Robo A moveu de (5, 3) para (8, 3)
+2025-06-14 14:08:01,237 - Robo A energia restante: 96
+2025-06-14 14:08:01,378 - Robo A moveu de (8, 3) para (12, 3)
+2025-06-14 14:08:02,109 - Robo A moveu de (12, 3) para (12, 6)
+2025-06-14 14:08:02,238 - Robo A energia restante: 95
+2025-06-14 14:08:02,945 - Robo A moveu de (12, 6) para (15, 6)
+2025-06-14 14:08:03,239 - Robo A energia restante: 94
+2025-06-14 14:08:03,703 - Robo A moveu de (15, 6) para (14, 6)
+2025-06-14 14:08:04,241 - Robo A energia restante: 93
+2025-06-14 14:08:04,437 - Robo A moveu de (14, 6) para (18, 6)
+2025-06-14 14:08:05,242 - Robo A energia restante: 92
+2025-06-14 14:08:06,243 - Robo A energia restante: 91
+2025-06-14 14:08:07,245 - Robo A energia restante: 90
+2025-06-14 14:08:08,246 - Robo A energia restante: 89
+2025-06-14 14:08:09,247 - Robo A energia restante: 88
+2025-06-14 14:08:10,249 - Robo A energia restante: 87
+2025-06-14 14:08:11,250 - Robo A energia restante: 86
+2025-06-14 14:08:12,252 - Robo A energia restante: 85
+2025-06-14 14:08:13,253 - Robo A energia restante: 84
+2025-06-14 14:08:14,255 - Robo A energia restante: 83
+2025-06-14 14:08:15,256 - Robo A energia restante: 82
+2025-06-14 14:08:16,257 - Robo A energia restante: 81
+2025-06-14 14:08:17,258 - Robo A energia restante: 80
+2025-06-14 14:08:18,260 - Robo A energia restante: 79
+2025-06-14 14:08:19,261 - Robo A energia restante: 78
+2025-06-14 14:08:20,262 - Robo A energia restante: 77
+2025-06-14 14:08:21,264 - Robo A energia restante: 76
+2025-06-14 14:08:22,265 - Robo A energia restante: 75
+2025-06-14 14:08:23,267 - Robo A energia restante: 74
+2025-06-14 14:08:24,268 - Robo A energia restante: 73
+2025-06-14 14:08:25,270 - Robo A energia restante: 72
+2025-06-14 14:08:26,271 - Robo A energia restante: 71
