@@ -52,7 +52,7 @@ def main():
 
     try:
         while p_jogador.is_alive():
-            time.sleep(1)
+            time.sleep(5)
     except KeyboardInterrupt:
         pass
     finally:

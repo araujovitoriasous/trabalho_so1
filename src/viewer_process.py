@@ -16,4 +16,4 @@ def renderiza_grid(memoria):
             print("|" + "".join(row) + "|")
         print(border)
         
-        time.sleep(0.3)
+        time.sleep(2.0)
