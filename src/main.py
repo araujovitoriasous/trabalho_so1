@@ -21,41 +21,50 @@ def main():
         grid.place_barreiras(barreiras)
         grid.place_baterias(baterias)
     memoria.inicializar_baterias(baterias)
+    memoria.flags['init_done'] = True # Sinaliza que o grid e baterias foram inicializados
 
     # Processos
     processos = []
 
     # Inicia o processo de renderização do grid
-    p_viewer = Process(target=render_grid, args=(memoria,))
+    p_viewer = Process(target=render_grid, args=(grid, memoria)) 
     p_viewer.start()
     processos.append(p_viewer)
 
     # Cria o RoboJogador e inicia a thread sense_act
-    jogador = RoboJogador('P', grid, memoria.robots_info, locks)
-    p_jogador = Process(target=jogador.start)  # Usa o método start() para começar o controle do robô
+    jogador = RoboJogador('A', grid, memoria.robots_info, locks)
+    p_jogador = Process(target=jogador.start)
     p_jogador.start()
     processos.append(p_jogador)
 
     # Robôs automáticos (exemplo)
-    for rid in ['A', 'B']:
+    # Garante que sempre haverá 3 robôs "normais" + 1 jogador
+    for i, rid in enumerate(['B', 'C', 'D']):
         robo = Robo(rid, grid, memoria.robots_info, locks)
         p = Process(target=robo.start)
         p.start()
         processos.append(p)
 
     try:
-        while p_jogador.is_alive():
+        # Loop principal para manter o main process ativo, ou pode usar join em todos os processos
+        while not memoria.game_over_event.is_set():
             time.sleep(1)
+        # Se o game_over_event for setado, encerra todos os processos
+        print("\n[INFO] Jogo encerrado. Aguardando processos terminarem...")
+        for p in processos:
+            if p.is_alive():
+                p.terminate() # Termina processos que ainda estão rodando
+                p.join() # Espera eles terminarem
+        print("[INFO] Todos os processos do jogo encerrados.")
+
     except KeyboardInterrupt:
-        pass
+        print("\n[INFO] Jogo encerrado pelo usuário. Finalizando processos...")
     finally:
         for p in processos:
-            p.terminate()
-        print("Jogo encerrado.")
+            if p.is_alive():
+                p.terminate()
+                p.join()
+        print("[INFO] Todos os processos encerrados.")
 
 if __name__ == "__main__":
-    modo = "deadlock"  # "deadlock" ou "normal"
-    if modo == "deadlock":
-        main_deadlock()
-    else:
         main()
