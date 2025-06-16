@@ -9,3 +9,301 @@
 2025-06-13 23:31:42,469 - Robo C criado com F=1, E=87, V=4
 2025-06-13 23:32:08,429 - Robo C criado com F=5, E=74, V=5
 2025-06-13 23:33:50,156 - Robo C criado com F=9, E=43, V=2
+2025-06-15 21:24:27,018 - Robo C criado com F=2, E=31, V=2
+2025-06-15 21:25:13,854 - Robo C criado com F=7, E=77, V=1
+2025-06-15 21:25:41,170 - Robo C criado com F=8, E=54, V=4
+2025-06-15 21:35:52,410 - Robo C criado com F=2, E=81, V=5
+2025-06-15 21:38:25,328 - Robo C criado com F=5, E=14, V=3
+2025-06-15 21:43:08,570 - Robo C criado com F=10, E=73, V=5
+2025-06-15 21:56:42,148 - Robo C criado com F=7, E=90, V=3
+2025-06-15 21:56:42,511 - Robo C moveu de (2, 0) para (5, 0)
+2025-06-15 21:56:43,209 - Robo C energia restante: 89
+2025-06-15 21:56:43,228 - Robo C moveu de (5, 0) para (3, 0)
+2025-06-15 21:56:43,873 - Robo C moveu de (3, 0) para (5, 0)
+2025-06-15 21:56:44,210 - Robo C energia restante: 88
+2025-06-15 21:56:45,211 - Robo C energia restante: 87
+2025-06-15 21:56:45,232 - Robo C moveu de (5, 0) para (7, 0)
+2025-06-15 21:56:46,211 - Robo C energia restante: 86
+2025-06-15 21:56:47,213 - Robo C moveu de (7, 0) para (5, 0)
+2025-06-15 21:56:47,213 - Robo C energia restante: 85
+2025-06-15 21:56:47,847 - Robo C moveu de (5, 0) para (5, 3)
+2025-06-15 21:56:48,214 - Robo C energia restante: 84
+2025-06-15 21:56:49,216 - Robo C energia restante: 83
+2025-06-15 21:56:50,216 - Robo C energia restante: 82
+2025-06-15 21:56:50,501 - Robo C moveu de (5, 3) para (5, 6)
+2025-06-15 21:56:51,147 - Robo C moveu de (5, 6) para (6, 6)
+2025-06-15 21:56:51,217 - Robo C energia restante: 81
+2025-06-15 21:56:51,804 - Robo C moveu de (6, 6) para (6, 4)
+2025-06-15 21:56:52,218 - Robo C energia restante: 80
+2025-06-15 21:56:52,453 - Robo C moveu de (6, 4) para (3, 4)
+2025-06-15 21:56:53,220 - Robo C energia restante: 79
+2025-06-15 21:56:53,787 - Robo C moveu de (3, 4) para (0, 4)
+2025-06-15 21:56:54,221 - Robo C energia restante: 78
+2025-06-15 21:56:54,446 - Robo C moveu de (0, 4) para (0, 2)
+2025-06-15 21:56:55,222 - Robo C energia restante: 77
+2025-06-15 21:56:56,223 - Robo C energia restante: 76
+2025-06-15 21:56:57,224 - Robo C energia restante: 75
+2025-06-15 21:56:58,225 - Robo C energia restante: 74
+2025-06-15 21:56:59,226 - Robo C energia restante: 73
+2025-06-15 21:57:00,227 - Robo C energia restante: 72
+2025-06-15 21:57:01,228 - Robo C energia restante: 71
+2025-06-15 21:57:02,229 - Robo C energia restante: 70
+2025-06-15 21:57:03,231 - Robo C energia restante: 69
+2025-06-15 21:57:04,232 - Robo C energia restante: 68
+2025-06-15 21:57:05,235 - Robo C energia restante: 67
+2025-06-15 21:57:06,235 - Robo C energia restante: 66
+2025-06-15 21:57:07,236 - Robo C energia restante: 65
+2025-06-15 21:57:08,237 - Robo C energia restante: 64
+2025-06-15 21:57:09,238 - Robo C energia restante: 63
+2025-06-15 21:57:10,239 - Robo C energia restante: 62
+2025-06-15 21:57:14,175 - Robo C energia restante: 61
+2025-06-15 21:57:15,175 - Robo C energia restante: 60
+2025-06-15 21:57:16,177 - Robo C energia restante: 59
+2025-06-15 21:57:17,178 - Robo C energia restante: 58
+2025-06-15 21:57:57,979 - Robo C criado com F=1, E=99, V=1
+2025-06-15 21:57:58,448 - Robo C moveu de (1, 0) para (2, 0)
+2025-06-15 21:57:59,037 - Robo C energia restante: 98
+2025-06-15 21:58:00,038 - Robo C energia restante: 97
+2025-06-15 21:58:00,667 - Robo C moveu de (2, 0) para (1, 0)
+2025-06-15 21:58:01,039 - Robo C energia restante: 96
+2025-06-15 21:58:02,039 - Robo C energia restante: 95
+2025-06-15 21:58:02,765 - Robo C moveu de (1, 0) para (1, 1)
+2025-06-15 21:58:03,040 - Robo C energia restante: 94
+2025-06-15 21:58:03,466 - Robo C moveu de (1, 1) para (2, 1)
+2025-06-15 21:58:04,041 - Robo C energia restante: 93
+2025-06-15 21:58:04,177 - Robo C moveu de (2, 1) para (2, 2)
+2025-06-15 21:58:04,945 - Robo C moveu de (2, 2) para (1, 2)
+2025-06-15 21:58:05,042 - Robo C energia restante: 92
+2025-06-15 21:58:05,662 - Robo C moveu de (1, 2) para (1, 1)
+2025-06-15 21:58:06,043 - Robo C energia restante: 91
+2025-06-15 21:58:06,318 - Robo C moveu de (1, 1) para (1, 2)
+2025-06-15 21:58:07,044 - Robo C energia restante: 90
+2025-06-15 21:58:07,126 - Robo C moveu de (1, 2) para (0, 2)
+2025-06-15 21:58:07,788 - Robo C moveu de (0, 2) para (0, 1)
+2025-06-15 21:59:29,275 - Robo C criado com F=1, E=11, V=3
+2025-06-15 21:59:30,339 - Robo C energia restante: 10
+2025-06-15 21:59:30,419 - Robo C moveu de (1, 0) para (1, 0)
+2025-06-15 21:59:31,340 - Robo C energia restante: 9
+2025-06-15 21:59:34,830 - Robo C moveu de (1, 0) para (2, 0)
+2025-06-15 21:59:35,279 - Robo C energia restante: 8
+2025-06-15 21:59:36,258 - Robo C moveu de (2, 0) para (2, 3)
+2025-06-15 21:59:36,280 - Robo C energia restante: 7
+2025-06-15 21:59:36,928 - Robo C moveu de (2, 3) para (0, 3)
+2025-06-15 21:59:37,280 - Robo C energia restante: 6
+2025-06-15 21:59:37,654 - Robo C moveu de (0, 3) para (0, 2)
+2025-06-15 21:59:38,281 - Robo C energia restante: 5
+2025-06-15 21:59:38,396 - Robo C moveu de (0, 2) para (0, 3)
+2025-06-15 21:59:39,282 - Robo C energia restante: 4
+2025-06-15 21:59:39,702 - Robo C moveu de (0, 3) para (1, 3)
+2025-06-15 22:03:56,349 - Robo C criado com F=8, E=12, V=5
+2025-06-15 22:03:57,410 - Robo C energia restante: 11
+2025-06-15 22:03:58,317 - Robo C moveu de (1, 0) para (1, 0)
+2025-06-15 22:03:58,411 - Robo C energia restante: 10
+2025-06-15 22:03:58,969 - Robo C moveu de (1, 0) para (1, 1)
+2025-06-15 22:03:59,411 - Robo C energia restante: 9
+2025-06-15 22:03:59,666 - Robo C moveu de (1, 1) para (1, 0)
+2025-06-15 22:04:00,412 - Robo C energia restante: 8
+2025-06-15 22:04:01,413 - Robo C energia restante: 7
+2025-06-15 22:04:02,413 - Robo C energia restante: 6
+2025-06-15 22:04:02,568 - Robo C moveu de (1, 0) para (0, 0)
+2025-06-15 22:04:03,414 - Robo C energia restante: 5
+2025-06-15 22:04:03,968 - Robo C moveu de (0, 0) para (0, 4)
+2025-06-15 22:04:04,415 - Robo C energia restante: 4
+2025-06-15 22:04:05,416 - Robo C energia restante: 3
+2025-06-15 22:04:05,581 - Robo C moveu de (0, 4) para (3, 4)
+2025-06-15 22:04:06,221 - Robo C moveu de (3, 4) para (3, 5)
+2025-06-15 22:04:29,215 - Robo C criado com F=6, E=28, V=5
+2025-06-15 22:04:29,689 - Robo C moveu de (2, 0) para (2, 4)
+2025-06-15 22:04:30,288 - Robo C energia restante: 27
+2025-06-15 22:04:31,288 - Robo C energia restante: 26
+2025-06-15 22:04:32,289 - Robo C energia restante: 25
+2025-06-15 22:04:33,290 - Robo C energia restante: 24
+2025-06-15 22:04:34,291 - Robo C energia restante: 23
+2025-06-15 22:04:35,292 - Robo C energia restante: 22
+2025-06-15 22:04:36,292 - Robo C energia restante: 21
+2025-06-15 22:04:37,293 - Robo C energia restante: 20
+2025-06-15 22:04:38,294 - Robo C energia restante: 19
+2025-06-15 22:04:39,295 - Robo C energia restante: 18
+2025-06-15 22:04:40,296 - Robo C energia restante: 17
+2025-06-15 22:04:41,297 - Robo C energia restante: 16
+2025-06-15 22:04:42,297 - Robo C energia restante: 15
+2025-06-15 22:04:43,298 - Robo C energia restante: 14
+2025-06-15 22:04:44,299 - Robo C energia restante: 13
+2025-06-15 22:04:45,299 - Robo C energia restante: 12
+2025-06-15 22:04:46,300 - Robo C energia restante: 11
+2025-06-15 22:07:01,443 - Robo C criado com F=1, E=62, V=1
+2025-06-15 22:09:09,775 - Robo C criado com F=3, E=87, V=5
+2025-06-15 22:09:10,331 - Robo C moveu de (2, 0) para (2, 1)
+2025-06-15 22:09:10,839 - Robo C energia restante: 86
+2025-06-15 22:09:11,003 - Robo C moveu de (2, 1) para (2, 0)
+2025-06-15 22:09:11,840 - Robo C energia restante: 85
+2025-06-15 22:09:12,320 - Robo C moveu de (2, 0) para (6, 0)
+2025-06-15 22:09:12,840 - Robo C energia restante: 84
+2025-06-15 22:09:13,641 - Robo C moveu de (6, 0) para (3, 0)
+2025-06-15 22:09:13,842 - Robo C energia restante: 83
+2025-06-15 22:09:14,845 - Robo C energia restante: 82
+2025-06-15 22:09:23,278 - Robo C criado com F=4, E=74, V=2
+2025-06-15 22:09:23,702 - Robo C moveu de (2, 0) para (1, 0)
+2025-06-15 22:09:24,341 - Robo C energia restante: 73
+2025-06-15 22:09:25,176 - Robo C moveu de (1, 0) para (1, 1)
+2025-06-15 22:09:25,342 - Robo C energia restante: 72
+2025-06-15 22:09:25,861 - Robo C moveu de (1, 1) para (1, 0)
+2025-06-15 22:10:10,584 - Robo C criado com F=2, E=65, V=4
+2025-06-15 22:10:11,647 - Robo C energia restante: 64
+2025-06-15 22:10:11,898 - Robo C moveu de (2, 0) para (3, 0)
+2025-06-15 22:10:12,647 - Robo C energia restante: 63
+2025-06-15 22:10:13,648 - Robo C energia restante: 62
+2025-06-15 22:10:14,650 - Robo C energia restante: 61
+2025-06-15 22:10:15,651 - Robo C energia restante: 60
+2025-06-15 22:10:16,652 - Robo C energia restante: 59
+2025-06-15 22:10:17,653 - Robo C energia restante: 58
+2025-06-15 22:10:18,654 - Robo C energia restante: 57
+2025-06-15 22:10:19,654 - Robo C energia restante: 56
+2025-06-15 22:10:20,655 - Robo C energia restante: 55
+2025-06-15 22:10:21,656 - Robo C energia restante: 54
+2025-06-15 22:10:22,657 - Robo C energia restante: 53
+2025-06-15 22:41:17,065 - Robo C criado com F=10, E=51, V=2
+2025-06-15 22:41:17,693 - Robo C encontrou caminho para bateria em (8, 5), próximo passo: (2, 1)
+2025-06-15 22:41:17,698 - Robo C moveu de (2, 0) para (2, 1). Energia: 50
+2025-06-15 22:45:54,251 - Robo C criado com F=4, E=13, V=4
+2025-06-15 22:45:55,292 - Robo C encontrou caminho para bateria em (9, 1), próximo passo: (1, 1)
+2025-06-15 22:45:55,293 - Robo C encontrou outro robô (A) em (1, 1). Evitando...
+2025-06-15 22:45:55,309 - Robo C energia restante: 12
+2025-06-15 22:45:56,279 - Robo C encontrou caminho para bateria em (9, 1), próximo passo: (1, 1)
+2025-06-15 22:45:56,283 - Robo C moveu de (1, 0) para (1, 1). Energia: 11
+2025-06-15 22:45:56,311 - Robo C energia restante: 10
+2025-06-15 22:45:57,234 - Robo C encontrou caminho para bateria em (9, 1), próximo passo: (2, 1)
+2025-06-15 22:45:57,235 - Robo C encontrou outro robô (A) em (2, 1). Evitando...
+2025-06-15 22:45:57,314 - Robo C energia restante: 9
+2025-06-15 22:53:26,933 - Robo C criado com F=6, E=40, V=5
+2025-06-15 22:55:23,943 - Robo C criado com F=3, E=60, V=4
+2025-06-15 22:55:25,015 - Robo C energia restante: 59
+2025-06-15 22:55:25,137 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:25,138 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:26,016 - Robo C energia restante: 58
+2025-06-15 22:55:26,400 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:26,402 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:27,016 - Robo C energia restante: 57
+2025-06-15 22:55:27,440 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:27,440 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:28,017 - Robo C energia restante: 56
+2025-06-15 22:55:28,650 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:28,651 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:29,018 - Robo C energia restante: 55
+2025-06-15 22:55:29,636 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:29,636 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:30,019 - Robo C energia restante: 54
+2025-06-15 22:55:30,636 - Robo C encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:30,637 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:33,946 - Robo C energia restante: 53
+2025-06-15 22:55:34,948 - Robo C energia restante: 52
+2025-06-15 22:55:35,949 - Robo C energia restante: 51
+2025-06-15 22:55:36,950 - Robo C energia restante: 50
+2025-06-15 22:55:37,951 - Robo C energia restante: 49
+2025-06-15 22:55:38,952 - Robo C energia restante: 48
+2025-06-15 22:55:39,952 - Robo C energia restante: 47
+2025-06-15 22:55:40,954 - Robo C energia restante: 46
+2025-06-15 22:55:41,954 - Robo C energia restante: 45
+2025-06-15 22:55:42,956 - Robo C energia restante: 44
+2025-06-15 22:55:43,958 - Robo C energia restante: 43
+2025-06-15 22:55:44,960 - Robo C energia restante: 42
+2025-06-15 22:55:45,962 - Robo C energia restante: 41
+2025-06-15 22:55:46,962 - Robo C energia restante: 40
+2025-06-15 22:55:47,963 - Robo C energia restante: 39
+2025-06-15 22:55:48,965 - Robo C energia restante: 38
+2025-06-15 22:55:49,967 - Robo C energia restante: 37
+2025-06-15 22:55:50,968 - Robo C energia restante: 36
+2025-06-15 22:55:51,969 - Robo C energia restante: 35
+2025-06-15 22:55:52,969 - Robo C energia restante: 34
+2025-06-15 22:55:53,970 - Robo C energia restante: 33
+2025-06-15 22:56:37,156 - Robo C criado com F=5, E=63, V=2
+2025-06-15 22:56:37,910 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 1)
+2025-06-15 22:56:37,920 - Robo C moveu de (2, 0) para (2, 1). Energia: 62
+2025-06-15 22:56:38,223 - Robo C energia restante: 61
+2025-06-15 22:56:38,520 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 2)
+2025-06-15 22:56:38,525 - Robo C moveu de (2, 1) para (2, 2). Energia: 60
+2025-06-15 22:56:39,124 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 3)
+2025-06-15 22:56:39,129 - Robo C moveu de (2, 2) para (2, 3). Energia: 59
+2025-06-15 22:56:39,224 - Robo C energia restante: 58
+2025-06-15 22:56:39,717 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 4)
+2025-06-15 22:56:39,723 - Robo C moveu de (2, 3) para (2, 4). Energia: 57
+2025-06-15 22:56:40,225 - Robo C energia restante: 56
+2025-06-15 22:56:40,463 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:40,472 - Robo C moveu de (2, 4) para (2, 5). Energia: 55
+2025-06-15 22:56:44,125 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:44,125 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:44,173 - Robo C energia restante: 54
+2025-06-15 22:56:44,776 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:44,776 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:45,173 - Robo C energia restante: 53
+2025-06-15 22:56:45,321 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:45,322 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:45,874 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:45,874 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:46,174 - Robo C energia restante: 52
+2025-06-15 22:56:46,535 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:46,535 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:47,279 - Robo C energia restante: 51
+2025-06-15 22:56:47,294 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:47,294 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:47,824 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:47,824 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:48,411 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:48,411 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:49,021 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:49,022 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:49,671 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:49,671 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:50,439 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:50,439 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:51,116 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:51,117 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 22:56:51,887 - Robo C encontrou caminho para bateria em (2, 6), próximo passo: (2, 6)
+2025-06-15 22:56:51,888 - Lock para bateria em (2, 6) não encontrado.
+2025-06-15 23:05:17,625 - Robo C criado com F=7, E=99, V=1
+2025-06-15 23:05:18,040 - Robo C encontrou caminho para bateria em (3, 12), próximo passo: (1, 1)
+2025-06-15 23:05:18,045 - Robo C moveu de (1, 0) para (1, 1). Energia: 98
+2025-06-15 23:05:18,411 - Robo C encontrou caminho para bateria em (3, 12), próximo passo: (1, 2)
+2025-06-15 23:05:18,416 - Robo C moveu de (1, 1) para (1, 2). Energia: 97
+2025-06-15 23:06:03,722 - Robo C criado com F=5, E=70, V=4
+2025-06-15 23:06:07,656 - Robo C encontrou caminho para bateria em (0, 1), próximo passo: (1, 1)
+2025-06-15 23:06:07,657 - Robo C encontrou outro robô (B) em (1, 1). Evitando...
+2025-06-15 23:06:14,293 - Robo C criado com F=10, E=44, V=5
+2025-06-15 23:06:15,354 - Robo C energia restante: 43
+2025-06-15 23:06:15,679 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (3, 0)
+2025-06-15 23:06:15,684 - Robo C moveu de (2, 0) para (3, 0). Energia: 42
+2025-06-15 23:06:16,355 - Robo C energia restante: 41
+2025-06-15 23:06:16,997 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:16,998 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:17,355 - Robo C energia restante: 40
+2025-06-15 23:06:18,190 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:18,191 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:18,357 - Robo C energia restante: 39
+2025-06-15 23:06:19,325 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:19,325 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:19,359 - Robo C energia restante: 38
+2025-06-15 23:06:20,360 - Robo C energia restante: 37
+2025-06-15 23:06:20,524 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:20,525 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:21,361 - Robo C energia restante: 36
+2025-06-15 23:06:21,684 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:21,684 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:22,363 - Robo C energia restante: 35
+2025-06-15 23:06:22,818 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:22,819 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:23,365 - Robo C energia restante: 34
+2025-06-15 23:06:24,128 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:24,128 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:06:24,366 - Robo C energia restante: 33
+2025-06-15 23:06:25,261 - Robo C encontrou caminho para bateria em (4, 0), próximo passo: (4, 0)
+2025-06-15 23:06:25,262 - Lock para bateria em (4, 0) não encontrado.
+2025-06-15 23:10:27,196 - Robo C criado com F=2, E=43, V=5
+2025-06-15 23:10:42,425 - Robo C criado com F=1, E=65, V=5
+2025-06-15 23:10:43,491 - Robo C energia restante: 64
+2025-06-15 23:10:43,984 - Robo C encontrou caminho para bateria em (1, 2), próximo passo: (1, 1)
+2025-06-15 23:10:43,989 - Robo C encontrou outro robô (B) em (1, 1). Evitando...
+2025-06-15 23:10:44,492 - Robo C energia restante: 63
+2025-06-15 23:10:48,432 - Robo C energia restante: 62
+2025-06-15 23:10:49,433 - Robo C energia restante: 61
+2025-06-15 23:10:50,434 - Robo C energia restante: 60
+2025-06-15 23:10:51,435 - Robo C energia restante: 59

@@ -57,6 +57,7 @@ class RoboJogador(Robo):
                     self.grid.set_cell(target, self.id)
                     old = self.pos
                     self.pos = target
+                    self.E = max(self.E - 1, 0)
                     self.robots_info[self.id]['pos'] = self.pos
                     stdscr.addstr(20, 0, f"Você moveu de {old} para {self.pos}.\n")
                 elif cell == '⚡':
@@ -74,7 +75,7 @@ class RoboJogador(Robo):
                     stdscr.addstr(20, 0, "Movimento inválido ou obstáculo.\n")
             
             time.sleep(0.1)  # Pequena pausa entre as iterações
-
+    
     def duelo(self, inimigo_id, target):
         """
         Lógica de duelo entre dois robôs.
