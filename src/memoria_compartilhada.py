@@ -3,6 +3,7 @@ from multiprocessing import Manager, Lock, Event
 class MemoriaCompartilhada:
     def __init__(self, qtd_robos=4):
         self.manager = Manager()
+        self.qtd_robos = qtd_robos
 
         # Cria a matriz 40x20 compartilhada
         self.grid = self.manager.list(
@@ -21,13 +22,9 @@ class MemoriaCompartilhada:
         # Mutexes para sincronização
         self.grid_mutex = Lock()  # Protege o grid
         self.robots_mutex = Lock()  # Protege os dados dos robôs
-        self.battery_mutexes = {}  # Mutexes para baterias
+        self.battery_mutexes = {}  # dicionário normal
 
     def inicializar_baterias(self, posicoes_baterias):
-        """
-        Para cada posição de bateria fornecida, cria um lock específico em `battery_mutexes`.
-        Isso impede que dois robôs tentem pegar a mesma bateria ao mesmo tempo.
-        """
+        self.battery_mutexes = {}
         for pos in posicoes_baterias:
-            # Cada bateria terá seu próprio lock
             self.battery_mutexes[pos] = Lock()

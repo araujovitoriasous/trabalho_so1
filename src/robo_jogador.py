@@ -1,8 +1,6 @@
-# robo_jogador.py (MODIFICADO)
 import curses
 from robos import Robo
 import time
-import random # Adicionado para uso futuro, se necessário
 import logging
 
 class RoboJogador(Robo):
@@ -66,10 +64,6 @@ class RoboJogador(Robo):
             stdscr.clear()  # Limpa a tela antes de desenhar novamente
             stdscr.addstr(0, 0, f"Seu Robo [{self.id}] em {self.pos} com E={self.E}, F={self.F}, V={self.V}")
             stdscr.addstr(1, 0, "Use WASD para mover. Pressione 'q' para sair.")
-
-            # Exibe uma parte do grid em torno do robô (opcional, para depuração)
-            # Ou pode chamar o viewer para desenhar o grid completo em outro local.
-            # Por simplicidade, o viewer_process faz isso.
 
             # Processa a entrada do usuário
             if key != -1: # Se uma tecla foi pressionada
@@ -137,7 +131,6 @@ class RoboJogador(Robo):
         Empate => ambos destruídos.
         A negociação do duelo deve ocorrer dentro de grid_mutex.
         """
-        inimigo = None
         
         # Garante atomicidade do duelo adquirindo grid_mutex e robots_mutex
         with self.locks['grid_mutex']:
@@ -146,17 +139,20 @@ class RoboJogador(Robo):
                 current_cell_content = self.grid.get_snapshot()[target_pos[1]][target_pos[0]]
                 if current_cell_content != inimigo_id:
                     self.logger.info(f"Robô {self.id} tentou duelar com {inimigo_id} em {target_pos}, mas ele não está mais lá.")
-                    stdscr.addstr(20, 0, f"Inimigo {inimigo_id} não está mais em {target_pos}.\\n")
+                    stdscr.addstr(20, 0, f"Inimigo {inimigo_id} não está mais em {target_pos}.\n")
+                    stdscr.refresh()
                     return
 
                 inimigo_data = self.robots_info.get(inimigo_id)
                 if not inimigo_data or inimigo_data['status'] == 'morto':
                     self.logger.info(f"Robô {self.id} tentou duelar com {inimigo_id}, mas ele já está morto.")
-                    stdscr.addstr(20, 0, f"Inimigo {inimigo_id} já está morto.\\n")
+                    stdscr.addstr(20, 0, f"Inimigo {inimigo_id} já está morto.\n")
+                    stdscr.refresh()
                     return
 
                 self.logger.info(f"Duelo iniciado: {self.id} (F={self.F}, E={self.E}) vs {inimigo_id} (F={inimigo_data['F']}, E={inimigo_data['E']})")
-                stdscr.addstr(20, 0, f"Duelo iniciado entre {self.id} e {inimigo_id}!\\n")
+                stdscr.addstr(20, 0, f"Duelo iniciado entre {self.id} e {inimigo_id}!\n")
+                stdscr.refresh()
                 
                 poder_atacante = (2 * self.F) + self.E
                 poder_inimigo = (2 * inimigo_data['F']) + inimigo_data['E']
@@ -166,7 +162,8 @@ class RoboJogador(Robo):
                 if poder_atacante > poder_inimigo:
                     # Atacante vence
                     self.logger.info(f"{self.id} venceu o duelo contra {inimigo_id}!")
-                    stdscr.addstr(20, 0, f"{self.id} venceu o duelo contra {inimigo_id}!\\n")
+                    stdscr.addstr(20, 0, f"{self.id} venceu o duelo contra {inimigo_id}!\n")
+                    stdscr.refresh()
                     # Marcar inimigo como morto e liberar célula
                     self._marcar_morto(inimigo_id, target_pos)
                     
@@ -183,26 +180,31 @@ class RoboJogador(Robo):
                 elif poder_inimigo > poder_atacante:
                     # Inimigo vence
                     self.logger.info(f"{inimigo_id} venceu o duelo contra {self.id}!")
-                    stdscr.addstr(20, 0, f"{inimigo_id} venceu o duelo contra {self.id}!\\n")
+                    stdscr.addstr(20, 0, f"{inimigo_id} venceu o duelo contra {self.id}!\n")
+                    stdscr.refresh()
                     # Marcar atacante como morto e liberar sua célula
                     self._marcar_morto(self.id, self.pos)
-                    selfscr.addstr(20, 0, f"Você morreu em combate! Fim de jogo.\\n")
+                    stdscr.addstr(20, 0, f"Você morreu em combate! Fim de jogo.\n")
+                    stdscr.refresh()
                     self.running.clear() # Sinaliza para parar as threads do jogador
                     self.status = 'morto' # Atualiza o status local para sair do loop
 
                 else:
                     # Empate - ambos morrem
                     self.logger.info(f"Duelo entre {self.id} e {inimigo_id} resultou em empate. Ambos morrem!")
-                    stdscr.addstr(20, 0, f"Empate! Ambos robôs foram destruídos!\\n")
+                    stdscr.addstr(20, 0, f"Empate! Ambos robôs foram destruídos!\n")
+                    stdscr.refresh()
                     self._marcar_morto(self.id, self.pos)
                     self._marcar_morto(inimigo_id, target_pos)
-                    selfscr.addstr(20, 0, f"Você morreu em combate! Fim de jogo.\\n")
+                    stdscr.addstr(20, 0, f"Você morreu em combate! Fim de jogo.\n")
+                    stdscr.refresh()
                     self.running.clear() # Sinaliza para parar as threads do jogador
                     self.status = 'morto' # Atualiza o status local para sair do loop
-        # Locks são liberados automaticamente ao sair dos blocos 'with'
 
     def _marcar_morto(self, robot_id, pos):
         """Marca um robô como morto e libera sua posição no grid."""
+        if robot_id not in self.robots_info:
+            return
         self.grid.clear_cell(pos)
         self.robots_info[robot_id]['status'] = 'morto'
         self.logger.info(f"Robô {robot_id} marcado como morto.")

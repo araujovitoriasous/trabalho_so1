@@ -3,7 +3,7 @@ import threading
 import time
 import random
 import logging
-from pathfinding import find_path # Importa a função find_path
+from pathfinding import find_path 
 
 class Robo:
     def __init__(self, id_robo, grid, robots_info, locks):
@@ -39,7 +39,8 @@ class Robo:
 
     def start(self):
         """Inicia as threads do robô."""
-        self.pos = self.grid.place_robot(self.id)
+        with self.locks['grid_mutex']:
+            self.pos = self.grid.place_robot(self.id)
         if self.pos is None:
             self.logger.error(f"Não foi possível posicionar o robô {self.id}. Encerrando.")
             self.running.clear()
@@ -49,14 +50,22 @@ class Robo:
             self.robots_info[self.id] = {'F': self.F, 'E': self.E, 'V': self.V, 'pos': self.pos, 'status': self.status}
         self.logger.info(f"Robo {self.id} posicionado em {self.pos}")
 
-        self.sense_act_thread.start()
-        self.housekeeping_thread.start()
+        try:
+            self.sense_act_thread.start()
+        except RuntimeError:
+            pass
+        try:
+            self.housekeeping_thread.start()
+        except RuntimeError:
+            pass
 
     def stop(self):
         """Para as threads do robô."""
         self.running.clear()
-        self.sense_act_thread.join()
-        self.housekeeping_thread.join()
+        if self.sense_act_thread.is_alive():
+            self.sense_act_thread.join()
+        if self.housekeeping_thread.is_alive():
+            self.housekeeping_thread.join()
 
     def _get_possible_moves(self, current_pos, grid_snapshot):
         """Retorna uma lista de movimentos válidos (adjacentes e não bloqueados)."""

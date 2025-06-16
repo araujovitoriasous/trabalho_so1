@@ -1,4 +1,4 @@
-from multiprocessing import Lock, Event # Importa Event
+from multiprocessing import Lock, Event
 
 def inicializar_locks(memoria):
     """

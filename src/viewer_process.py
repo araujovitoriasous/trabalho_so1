@@ -14,7 +14,6 @@ def render_grid(grid_instance, memoria_instance): # Alterado: recebe grid_instan
     clear_screen = "\033[H\033[J" # Limpa a tela de forma mais robusta (para terminais compatíveis com ANSI)
     
     # Agora acessa width e height diretamente do objeto grid_instance
-    border_width = grid_instance.width + 2 
     border = "+" + "-" * (grid_instance.width) + "+\n"
 
     while True:
@@ -26,7 +25,7 @@ def render_grid(grid_instance, memoria_instance): # Alterado: recebe grid_instan
         # Imprime o grid
         sys.stdout.write(clear_screen)
         sys.stdout.write(border)
-        for row_idx, row in enumerate(snapshot):
+        for row in snapshot:
             display_row = ""
             for char_val in row:
                 display_row += str(char_val)
