@@ -576,3 +576,281 @@
 2025-06-15 20:13:20,352 - Robo A energia restante: 15
 2025-06-15 20:13:20,746 - Robo A moveu de (0, 3) para (0, 0)
 2025-06-15 20:13:21,354 - Robo A energia restante: 14
+2025-06-15 20:35:30,004 - Robo A criado com F=9, E=22, V=4
+2025-06-15 20:35:31,038 - Robo A energia restante: 21
+2025-06-15 20:35:31,547 - Robo A moveu de (1, 0) para (4, 0)
+2025-06-15 20:35:32,039 - Robo A energia restante: 20
+2025-06-15 20:35:32,188 - Robo A moveu de (4, 0) para (4, 4)
+2025-06-15 20:35:33,040 - Robo A energia restante: 19
+2025-06-15 20:35:34,041 - Robo A energia restante: 18
+2025-06-15 20:35:35,042 - Robo A energia restante: 17
+2025-06-15 20:35:36,045 - Robo A energia restante: 16
+2025-06-15 20:35:37,047 - Robo A energia restante: 15
+2025-06-15 20:35:38,048 - Robo A energia restante: 14
+2025-06-15 20:35:39,048 - Robo A energia restante: 13
+2025-06-15 20:35:40,049 - Robo A energia restante: 12
+2025-06-15 20:35:41,050 - Robo A energia restante: 11
+2025-06-15 20:35:42,053 - Robo A energia restante: 10
+2025-06-15 20:35:43,055 - Robo A energia restante: 9
+2025-06-15 20:35:50,275 - Robo A criado com F=7, E=13, V=1
+2025-06-15 20:35:51,164 - Robo A moveu de (1, 0) para (1, 1)
+2025-06-15 20:35:51,314 - Robo A energia restante: 12
+2025-06-15 20:35:51,831 - Robo A moveu de (1, 1) para (1, 2)
+2025-06-15 20:35:52,314 - Robo A energia restante: 11
+2025-06-15 20:35:52,474 - Robo A moveu de (1, 2) para (2, 2)
+2025-06-15 20:35:53,315 - Robo A energia restante: 10
+2025-06-15 20:35:54,317 - Robo A energia restante: 9
+2025-06-15 20:35:55,320 - Robo A energia restante: 8
+2025-06-15 20:35:56,321 - Robo A energia restante: 7
+2025-06-15 20:35:57,322 - Robo A energia restante: 6
+2025-06-15 20:35:58,323 - Robo A energia restante: 5
+2025-06-15 20:35:59,325 - Robo A energia restante: 4
+2025-06-15 20:36:00,326 - Robo A energia restante: 3
+2025-06-15 20:36:04,269 - Robo A energia restante: 2
+2025-06-15 20:36:05,270 - Robo A energia restante: 1
+2025-06-15 20:36:06,271 - Robo A energia restante: 0
+2025-06-15 20:36:06,275 - Robo A morreu por falta de energia
+2025-06-15 21:05:58,757 - Robo A criado com F=7, E=25, V=1
+2025-06-15 21:05:59,805 - Robo A energia restante: 24
+2025-06-15 21:06:00,442 - Robo A moveu de (1, 0) para (2, 0)
+2025-06-15 21:06:00,806 - Robo A energia restante: 23
+2025-06-15 21:06:01,806 - Robo A energia restante: 22
+2025-06-15 21:06:02,807 - Robo A energia restante: 21
+2025-06-15 21:06:03,807 - Robo A energia restante: 20
+2025-06-15 21:06:04,810 - Robo A energia restante: 19
+2025-06-15 21:06:05,812 - Robo A energia restante: 18
+2025-06-15 21:06:06,813 - Robo A energia restante: 17
+2025-06-15 21:06:07,813 - Robo A energia restante: 16
+2025-06-15 21:06:08,814 - Robo A energia restante: 15
+2025-06-15 21:06:09,815 - Robo A energia restante: 14
+2025-06-15 21:06:10,817 - Robo A energia restante: 13
+2025-06-15 21:06:11,818 - Robo A energia restante: 12
+2025-06-15 21:06:12,820 - Robo A energia restante: 11
+2025-06-15 21:06:13,820 - Robo A energia restante: 10
+2025-06-15 21:06:14,821 - Robo A energia restante: 9
+2025-06-15 21:06:15,823 - Robo A energia restante: 8
+2025-06-15 21:06:16,824 - Robo A energia restante: 7
+2025-06-15 21:06:17,824 - Robo A energia restante: 6
+2025-06-15 21:06:18,825 - Robo A energia restante: 5
+2025-06-15 21:06:19,826 - Robo A energia restante: 4
+2025-06-15 21:06:20,827 - Robo A energia restante: 3
+2025-06-15 21:06:21,829 - Robo A energia restante: 2
+2025-06-15 21:06:22,831 - Robo A energia restante: 1
+2025-06-15 21:06:23,832 - Robo A energia restante: 0
+2025-06-15 21:06:23,836 - Robo A morreu por falta de energia
+2025-06-15 21:10:20,430 - Robo A criado com F=4, E=59, V=4
+2025-06-15 21:10:20,641 - Robo A moveu de (1, 0) para (1, 1)
+2025-06-15 21:10:21,462 - Robo A energia restante: 58
+2025-06-15 21:10:22,463 - Robo A energia restante: 57
+2025-06-15 21:10:23,464 - Robo A energia restante: 56
+2025-06-15 21:10:24,464 - Robo A energia restante: 55
+2025-06-15 21:10:25,465 - Robo A energia restante: 54
+2025-06-15 21:10:26,466 - Robo A energia restante: 53
+2025-06-15 21:10:27,467 - Robo A energia restante: 52
+2025-06-15 21:10:28,468 - Robo A energia restante: 51
+2025-06-15 21:10:29,469 - Robo A energia restante: 50
+2025-06-15 21:10:30,470 - Robo A energia restante: 49
+2025-06-15 21:10:31,470 - Robo A energia restante: 48
+2025-06-15 21:10:32,472 - Robo A energia restante: 47
+2025-06-15 21:10:33,474 - Robo A energia restante: 46
+2025-06-15 21:10:34,475 - Robo A energia restante: 45
+2025-06-15 21:24:27,019 - Robo A criado com F=2, E=69, V=2
+2025-06-15 21:25:13,853 - Robo A criado com F=2, E=74, V=4
+2025-06-15 21:25:41,165 - Robo A criado com F=4, E=38, V=1
+2025-06-15 21:26:06,169 - Robo A criado com F=7, E=65, V=4
+2025-06-15 21:26:07,208 - Robo A energia restante: 64
+2025-06-15 21:26:08,208 - Robo A energia restante: 63
+2025-06-15 21:26:12,156 - Robo A energia restante: 62
+2025-06-15 21:26:13,157 - Robo A energia restante: 61
+2025-06-15 21:26:14,159 - Robo A energia restante: 60
+2025-06-15 21:26:15,160 - Robo A energia restante: 59
+2025-06-15 21:26:16,161 - Robo A energia restante: 58
+2025-06-15 21:26:17,162 - Robo A energia restante: 57
+2025-06-15 21:26:18,163 - Robo A energia restante: 56
+2025-06-15 21:26:19,164 - Robo A energia restante: 55
+2025-06-15 21:26:20,166 - Robo A energia restante: 54
+2025-06-15 21:26:21,168 - Robo A energia restante: 53
+2025-06-15 21:26:22,170 - Robo A energia restante: 52
+2025-06-15 21:26:23,171 - Robo A energia restante: 51
+2025-06-15 21:26:24,171 - Robo A energia restante: 50
+2025-06-15 21:26:25,172 - Robo A energia restante: 49
+2025-06-15 21:26:26,175 - Robo A energia restante: 48
+2025-06-15 21:26:27,177 - Robo A energia restante: 47
+2025-06-15 21:26:28,179 - Robo A energia restante: 46
+2025-06-15 21:26:29,180 - Robo A energia restante: 45
+2025-06-15 21:30:05,032 - Robo A criado com F=3, E=90, V=3
+2025-06-15 21:30:06,065 - Robo A energia restante: 89
+2025-06-15 21:30:07,066 - Robo A energia restante: 88
+2025-06-15 21:30:08,067 - Robo A energia restante: 87
+2025-06-15 21:30:09,068 - Robo A energia restante: 86
+2025-06-15 21:30:10,068 - Robo A energia restante: 85
+2025-06-15 21:30:11,069 - Robo A energia restante: 84
+2025-06-15 21:30:12,070 - Robo A energia restante: 83
+2025-06-15 21:30:13,071 - Robo A energia restante: 82
+2025-06-15 21:30:14,072 - Robo A energia restante: 81
+2025-06-15 21:30:18,003 - Robo A energia restante: 80
+2025-06-15 21:30:19,004 - Robo A energia restante: 79
+2025-06-15 21:30:20,005 - Robo A energia restante: 78
+2025-06-15 21:30:21,006 - Robo A energia restante: 77
+2025-06-15 21:30:22,007 - Robo A energia restante: 76
+2025-06-15 21:30:23,008 - Robo A energia restante: 75
+2025-06-15 21:30:24,009 - Robo A energia restante: 74
+2025-06-15 21:30:25,010 - Robo A energia restante: 73
+2025-06-15 21:30:26,012 - Robo A energia restante: 72
+2025-06-15 21:30:27,013 - Robo A energia restante: 71
+2025-06-15 21:30:28,014 - Robo A energia restante: 70
+2025-06-15 21:30:29,016 - Robo A energia restante: 69
+2025-06-15 21:35:52,409 - Robo A criado com F=7, E=41, V=5
+2025-06-15 21:38:25,327 - Robo A criado com F=6, E=75, V=4
+2025-06-15 21:43:08,563 - Robo A criado com F=6, E=71, V=1
+2025-06-15 21:43:38,458 - Robo A criado com F=7, E=37, V=2
+2025-06-15 21:43:38,637 - Robo A moveu de (1, 0) para (1, 2)
+2025-06-15 21:43:39,353 - Robo A moveu de (1, 2) para (2, 2)
+2025-06-15 21:43:39,490 - Robo A energia restante: 36
+2025-06-15 21:43:40,031 - Robo A moveu de (2, 2) para (2, 1)
+2025-06-15 21:43:40,491 - Robo A energia restante: 35
+2025-06-15 21:43:40,687 - Robo A moveu de (2, 1) para (2, 3)
+2025-06-15 21:43:41,492 - Robo A energia restante: 34
+2025-06-15 21:43:42,493 - Robo A energia restante: 33
+2025-06-15 21:43:43,495 - Robo A energia restante: 32
+2025-06-15 21:43:44,497 - Robo A energia restante: 31
+2025-06-15 21:43:45,498 - Robo A energia restante: 30
+2025-06-15 21:43:55,023 - Robo A criado com F=2, E=60, V=1
+2025-06-15 21:43:55,206 - Robo A moveu de (1, 0) para (2, 0)
+2025-06-15 21:43:55,869 - Robo A moveu de (2, 0) para (1, 0)
+2025-06-15 21:44:21,883 - Robo A criado com F=7, E=16, V=4
+2025-06-15 21:47:19,394 - Robo A criado com F=7, E=100, V=2
+2025-06-15 21:47:19,599 - Robo A moveu de (1, 0) para (2, 0)
+2025-06-15 21:56:42,129 - Robo A criado com F=10, E=58, V=1
+2025-06-15 21:56:42,366 - Robo A moveu de (1, 0) para (1, 1)
+2025-06-15 21:56:43,184 - Robo A energia restante: 57
+2025-06-15 21:56:44,185 - Robo A energia restante: 56
+2025-06-15 21:56:45,186 - Robo A energia restante: 55
+2025-06-15 21:56:46,187 - Robo A energia restante: 54
+2025-06-15 21:56:47,188 - Robo A energia restante: 53
+2025-06-15 21:56:48,189 - Robo A energia restante: 52
+2025-06-15 21:56:49,190 - Robo A energia restante: 51
+2025-06-15 21:56:50,190 - Robo A energia restante: 50
+2025-06-15 21:56:51,191 - Robo A energia restante: 49
+2025-06-15 21:56:52,192 - Robo A energia restante: 48
+2025-06-15 21:56:53,194 - Robo A energia restante: 47
+2025-06-15 21:56:54,196 - Robo A energia restante: 46
+2025-06-15 21:56:55,196 - Robo A energia restante: 45
+2025-06-15 21:56:56,197 - Robo A energia restante: 44
+2025-06-15 21:56:57,198 - Robo A energia restante: 43
+2025-06-15 21:56:58,198 - Robo A energia restante: 42
+2025-06-15 21:56:59,200 - Robo A energia restante: 41
+2025-06-15 21:57:00,201 - Robo A energia restante: 40
+2025-06-15 21:57:01,202 - Robo A energia restante: 39
+2025-06-15 21:57:02,204 - Robo A energia restante: 38
+2025-06-15 21:57:03,206 - Robo A energia restante: 37
+2025-06-15 21:57:04,208 - Robo A energia restante: 36
+2025-06-15 21:57:05,210 - Robo A energia restante: 35
+2025-06-15 21:57:06,211 - Robo A energia restante: 34
+2025-06-15 21:57:07,212 - Robo A energia restante: 33
+2025-06-15 21:57:08,213 - Robo A energia restante: 32
+2025-06-15 21:57:09,214 - Robo A energia restante: 31
+2025-06-15 21:57:10,215 - Robo A energia restante: 30
+2025-06-15 21:57:14,151 - Robo A energia restante: 29
+2025-06-15 21:57:15,151 - Robo A energia restante: 28
+2025-06-15 21:57:16,152 - Robo A energia restante: 27
+2025-06-15 21:57:17,153 - Robo A energia restante: 26
+2025-06-15 21:57:57,967 - Robo A criado com F=8, E=39, V=4
+2025-06-15 21:57:59,061 - Robo A energia restante: 38
+2025-06-15 21:57:59,742 - Robo A moveu de (1, 0) para (1, 0)
+2025-06-15 21:58:00,062 - Robo A energia restante: 37
+2025-06-15 21:58:00,462 - Robo A moveu de (1, 0) para (3, 0)
+2025-06-15 21:58:01,063 - Robo A energia restante: 36
+2025-06-15 21:58:01,156 - Robo A moveu de (3, 0) para (2, 0)
+2025-06-15 21:58:02,063 - Robo A energia restante: 35
+2025-06-15 21:58:02,532 - Robo A moveu de (2, 0) para (2, 4)
+2025-06-15 21:58:03,064 - Robo A energia restante: 34
+2025-06-15 21:58:03,267 - Robo A moveu de (2, 4) para (1, 4)
+2025-06-15 21:58:03,981 - Robo A moveu de (1, 4) para (0, 4)
+2025-06-15 21:58:04,065 - Robo A energia restante: 33
+2025-06-15 21:58:04,747 - Robo A moveu de (0, 4) para (0, 8)
+2025-06-15 21:58:05,066 - Robo A energia restante: 32
+2025-06-15 21:58:06,067 - Robo A energia restante: 31
+2025-06-15 21:58:07,068 - Robo A energia restante: 30
+2025-06-15 21:59:29,265 - Robo A criado com F=7, E=97, V=3
+2025-06-15 21:59:30,308 - Robo A energia restante: 96
+2025-06-15 21:59:31,309 - Robo A energia restante: 95
+2025-06-15 21:59:35,248 - Robo A energia restante: 94
+2025-06-15 21:59:36,249 - Robo A energia restante: 93
+2025-06-15 21:59:37,249 - Robo A energia restante: 92
+2025-06-15 21:59:38,250 - Robo A energia restante: 91
+2025-06-15 21:59:39,251 - Robo A energia restante: 90
+2025-06-15 22:03:56,338 - Robo A criado com F=10, E=29, V=5
+2025-06-15 22:03:56,679 - Robo A moveu de (0, 0) para (0, 2)
+2025-06-15 22:03:57,341 - Robo A moveu de (0, 2) para (5, 2)
+2025-06-15 22:03:57,381 - Robo A energia restante: 28
+2025-06-15 22:03:58,092 - Robo A moveu de (5, 2) para (6, 2)
+2025-06-15 22:03:58,382 - Robo A energia restante: 27
+2025-06-15 22:03:58,790 - Robo A moveu de (6, 2) para (6, 4)
+2025-06-15 22:03:59,382 - Robo A energia restante: 26
+2025-06-15 22:03:59,486 - Robo A moveu de (6, 4) para (6, 6)
+2025-06-15 22:04:00,302 - Robo A moveu de (6, 6) para (6, 3)
+2025-06-15 22:04:00,383 - Robo A energia restante: 25
+2025-06-15 22:04:00,937 - Robo A moveu de (6, 3) para (11, 3)
+2025-06-15 22:04:01,384 - Robo A energia restante: 24
+2025-06-15 22:04:01,608 - Robo A moveu de (11, 3) para (10, 3)
+2025-06-15 22:04:02,387 - Robo A moveu de (10, 3) para (10, 0)
+2025-06-15 22:04:02,387 - Robo A energia restante: 23
+2025-06-15 22:04:03,388 - Robo A energia restante: 22
+2025-06-15 22:04:03,805 - Robo A moveu de (10, 0) para (10, 2)
+2025-06-15 22:04:04,389 - Robo A energia restante: 21
+2025-06-15 22:04:04,616 - Robo A moveu de (10, 2) para (10, 0)
+2025-06-15 22:04:05,340 - Robo A moveu de (10, 0) para (12, 0)
+2025-06-15 22:04:05,390 - Robo A energia restante: 20
+2025-06-15 22:04:06,033 - Robo A moveu de (12, 0) para (17, 0)
+2025-06-15 22:04:29,206 - Robo A criado com F=8, E=80, V=2
+2025-06-15 22:04:30,261 - Robo A energia restante: 79
+2025-06-15 22:04:31,262 - Robo A energia restante: 78
+2025-06-15 22:04:31,570 - Robo A moveu de (1, 0) para (1, 1)
+2025-06-15 22:04:32,263 - Robo A energia restante: 77
+2025-06-15 22:04:32,295 - Robo A moveu de (1, 1) para (1, 3)
+2025-06-15 22:04:32,968 - Robo A moveu de (1, 3) para (1, 1)
+2025-06-15 22:04:33,264 - Robo A energia restante: 76
+2025-06-15 22:04:33,605 - Robo A moveu de (1, 1) para (1, 3)
+2025-06-15 22:04:34,265 - Robo A energia restante: 75
+2025-06-15 22:04:35,265 - Robo A energia restante: 74
+2025-06-15 22:04:36,266 - Robo A energia restante: 73
+2025-06-15 22:04:37,267 - Robo A energia restante: 72
+2025-06-15 22:04:38,267 - Robo A energia restante: 71
+2025-06-15 22:04:39,268 - Robo A energia restante: 70
+2025-06-15 22:04:40,269 - Robo A energia restante: 69
+2025-06-15 22:04:41,270 - Robo A energia restante: 68
+2025-06-15 22:04:42,270 - Robo A energia restante: 67
+2025-06-15 22:04:43,271 - Robo A energia restante: 66
+2025-06-15 22:04:44,272 - Robo A energia restante: 65
+2025-06-15 22:04:45,273 - Robo A energia restante: 64
+2025-06-15 22:04:46,273 - Robo A energia restante: 63
+2025-06-15 22:07:01,442 - Robo A criado com F=6, E=19, V=5
+2025-06-15 22:09:09,766 - Robo A criado com F=8, E=76, V=2
+2025-06-15 22:09:10,819 - Robo A energia restante: 75
+2025-06-15 22:09:11,820 - Robo A energia restante: 74
+2025-06-15 22:09:12,821 - Robo A energia restante: 73
+2025-06-15 22:09:13,823 - Robo A energia restante: 72
+2025-06-15 22:09:14,826 - Robo A energia restante: 71
+2025-06-15 22:09:23,267 - Robo A criado com F=1, E=20, V=3
+2025-06-15 22:09:23,558 - Robo A moveu de (1, 0) para (1, 2)
+2025-06-15 22:09:24,241 - Robo A moveu de (1, 2) para (0, 2)
+2025-06-15 22:09:24,321 - Robo A energia restante: 19
+2025-06-15 22:09:25,322 - Robo A energia restante: 18
+2025-06-15 22:09:25,673 - Robo A moveu de (0, 2) para (3, 2)
+2025-06-15 22:10:10,571 - Robo A criado com F=5, E=92, V=4
+2025-06-15 22:10:11,569 - Robo A moveu de (1, 0) para (1, 1)
+2025-06-15 22:10:11,621 - Robo A energia restante: 91
+2025-06-15 22:10:12,331 - Robo A moveu de (1, 1) para (1, 0)
+2025-06-15 22:10:12,622 - Robo A energia restante: 90
+2025-06-15 22:10:12,967 - Robo A moveu de (1, 0) para (4, 0)
+2025-06-15 22:10:13,623 - Robo A energia restante: 89
+2025-06-15 22:10:14,623 - Robo A energia restante: 88
+2025-06-15 22:10:15,624 - Robo A energia restante: 87
+2025-06-15 22:10:16,624 - Robo A energia restante: 86
+2025-06-15 22:10:17,625 - Robo A energia restante: 85
+2025-06-15 22:10:18,626 - Robo A energia restante: 84
+2025-06-15 22:10:19,626 - Robo A energia restante: 83
+2025-06-15 22:10:20,627 - Robo A energia restante: 82
+2025-06-15 22:10:21,628 - Robo A energia restante: 81
+2025-06-15 22:10:22,629 - Robo A energia restante: 80

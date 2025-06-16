@@ -2,7 +2,7 @@ from multiprocessing import Process, Barrier
 from memoria_compartilhada import MemoriaCompartilhada
 from grid import Grid
 from sincronizacao import inicializar_locks
-from viewer_process import render_grid
+from viewer_process import renderiza_grid
 import time
 import logging
 
@@ -54,15 +54,8 @@ def provocar_deadlock():
     
     barrier = Barrier(2)
 
-    # Adapta o Grid para o formato esperado por render_grid, simulando memoria.grid.width
-    class MemoriaFake:
-        def __init__(self, grid):
-            self.grid = grid
+    p_viewer = Process(target=renderiza_grid, args=(memoria,))
 
-    p_viewer = Process(target=render_grid, args=(MemoriaFake(grid),))
-
-
-    #p_viewer = Process(target=render_grid, args=(grid,))
     p_viewer.start()
 
     p1 = Process(target=deadlock_robo, args=('X', grid, memoria, locks, barrier, 'battery-first'))
