@@ -1,38 +1,13 @@
 from multiprocessing import Process
-import threading
 from memoria_compartilhada import MemoriaCompartilhada
 from grid import Grid
 from sincronizacao import inicializar_locks
-from viewer_process import renderiza_grid, main_viewer, iniciar_robo
+from viewer_process import renderiza_grid
 from robo_jogador import RoboJogador
 from robos import Robo
 import time
 import random
 from main_deadlock import main_deadlock
-import os
-
-
-def limpar_terminal():
-    os.system("cls" if os.name == "nt" else "clear")
-
-def exibir_status_jogo(robots_info):
-    while True:
-        limpar_terminal()
-        print("=" * 50)
-        print("                 JOGO DOS ROBÔS")
-        print("=" * 50)
-        print("\nStatus atual dos robôs:\n")
-
-        for nome, atributos in robots_info.items():
-            print(f"Robô {nome}")
-            print(f"  Energia   : {atributos.get('energia', '?')}")
-            print(f"  Força     : {atributos.get('forca', '?')}")
-            print(f"  Velocidade: {atributos.get('velocidade', '?')}")
-            print(f"  Posição   : {atributos.get('posicao', '?')}")
-            print(f"  Vivo      : {atributos.get('vivo', '?')}")
-            print("-" * 40)
-
-        time.sleep(1.0)
 
 def main():
     # Inicializa a memória compartilhada e o grid
@@ -41,7 +16,6 @@ def main():
     locks = inicializar_locks(memoria)
 
     # Inicializa grid
-    # barreiras = [(5, 5), (10, 10), (15, 15)]
     barreiras = [(x, 10) for x in range(10, 30)] + \
                 [(5, y) for y in range(5, 15)] + \
                 [(34, y) for y in range(5, 15)]
@@ -62,10 +36,6 @@ def main():
     p_viewer = Process(target=renderiza_grid, args=(memoria,))
     p_viewer.start()
     processos.append(p_viewer)
-
-    status_thread = threading.Thread(target=exibir_status_jogo, args=(memoria,))
-    status_thread.daemon = True
-    status_thread.start()
 
     # Cria o RoboJogador e inicia a thread sense_act
     jogador = RoboJogador('P', grid, memoria.robots_info, locks)

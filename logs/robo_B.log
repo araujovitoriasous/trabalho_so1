@@ -897,3 +897,112 @@
 2025-06-15 22:10:22,110 - Robo B moveu de (7, 0) para (2, 0)
 2025-06-15 22:10:22,651 - Robo B energia restante: 35
 2025-06-15 22:10:23,437 - Robo B moveu de (2, 0) para (2, 1)
+2025-06-15 22:41:17,056 - Robo B criado com F=2, E=55, V=4
+2025-06-15 22:45:54,246 - Robo B criado com F=5, E=62, V=5
+2025-06-15 22:45:55,305 - Robo B energia restante: 61
+2025-06-15 22:45:55,614 - Robo B encontrou caminho para bateria em (9, 1), próximo passo: (1, 1)
+2025-06-15 22:45:55,614 - Robo B encontrou outro robô (A) em (1, 1). Evitando...
+2025-06-15 22:45:56,306 - Robo B energia restante: 60
+2025-06-15 22:45:56,760 - Robo B encontrou caminho para bateria em (9, 1), próximo passo: (1, 1)
+2025-06-15 22:45:56,760 - Robo B encontrou outro robô (C) em (1, 1). Evitando...
+2025-06-15 22:45:57,309 - Robo B energia restante: 59
+2025-06-15 22:45:57,983 - Robo B encontrou caminho para bateria em (9, 1), próximo passo: (1, 1)
+2025-06-15 22:45:57,983 - Robo B encontrou outro robô (C) em (1, 1). Evitando...
+2025-06-15 22:53:26,928 - Robo B criado com F=6, E=18, V=4
+2025-06-15 22:53:27,936 - Robo B encontrou caminho para bateria em (10, 2), próximo passo: (2, 1)
+2025-06-15 22:55:23,936 - Robo B criado com F=2, E=28, V=5
+2025-06-15 22:55:25,002 - Robo B energia restante: 27
+2025-06-15 22:55:25,200 - Robo B encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:25,201 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:26,002 - Robo B energia restante: 26
+2025-06-15 22:55:26,557 - Robo B encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:26,557 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:27,004 - Robo B energia restante: 25
+2025-06-15 22:55:27,713 - Robo B encontrou caminho para bateria em (2, 0), próximo passo: (2, 0)
+2025-06-15 22:55:27,713 - Lock para bateria em (2, 0) não encontrado.
+2025-06-15 22:55:28,005 - Robo B energia restante: 24
+2025-06-15 22:55:29,006 - Robo B energia restante: 23
+2025-06-15 22:55:30,007 - Robo B energia restante: 22
+2025-06-15 22:55:33,934 - Robo B energia restante: 21
+2025-06-15 22:55:34,936 - Robo B energia restante: 20
+2025-06-15 22:55:35,937 - Robo B energia restante: 19
+2025-06-15 22:55:36,938 - Robo B energia restante: 18
+2025-06-15 22:55:37,939 - Robo B energia restante: 17
+2025-06-15 22:55:38,939 - Robo B energia restante: 16
+2025-06-15 22:55:39,940 - Robo B energia restante: 15
+2025-06-15 22:55:40,941 - Robo B energia restante: 14
+2025-06-15 22:55:41,942 - Robo B energia restante: 13
+2025-06-15 22:55:42,944 - Robo B energia restante: 12
+2025-06-15 22:55:43,945 - Robo B energia restante: 11
+2025-06-15 22:55:44,947 - Robo B energia restante: 10
+2025-06-15 22:55:45,949 - Robo B energia restante: 9
+2025-06-15 22:55:46,950 - Robo B energia restante: 8
+2025-06-15 22:55:47,951 - Robo B energia restante: 7
+2025-06-15 22:55:48,952 - Robo B energia restante: 6
+2025-06-15 22:55:49,954 - Robo B energia restante: 5
+2025-06-15 22:55:50,955 - Robo B energia restante: 4
+2025-06-15 22:55:51,956 - Robo B energia restante: 3
+2025-06-15 22:55:52,956 - Robo B energia restante: 2
+2025-06-15 22:55:53,957 - Robo B energia restante: 1
+2025-06-15 22:56:37,151 - Robo B criado com F=10, E=17, V=4
+2025-06-15 22:56:38,171 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 1)
+2025-06-15 22:56:38,171 - Robo B encontrou outro robô (C) em (2, 1). Evitando...
+2025-06-15 22:56:38,222 - Robo B energia restante: 16
+2025-06-15 22:56:39,170 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 1)
+2025-06-15 22:56:39,175 - Robo B moveu de (2, 0) para (2, 1). Energia: 15
+2025-06-15 22:56:39,223 - Robo B energia restante: 14
+2025-06-15 22:56:40,224 - Robo B energia restante: 13
+2025-06-15 22:56:40,225 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 2)
+2025-06-15 22:56:40,241 - Robo B moveu de (2, 1) para (2, 2). Energia: 12
+2025-06-15 22:56:44,172 - Robo B energia restante: 11
+2025-06-15 22:56:44,262 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 3)
+2025-06-15 22:56:44,266 - Robo B moveu de (2, 2) para (2, 3). Energia: 10
+2025-06-15 22:56:45,172 - Robo B energia restante: 9
+2025-06-15 22:56:45,222 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 4)
+2025-06-15 22:56:45,227 - Robo B moveu de (2, 3) para (2, 4). Energia: 8
+2025-06-15 22:56:46,165 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:46,165 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:46,174 - Robo B energia restante: 7
+2025-06-15 22:56:47,314 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:47,314 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:48,255 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:48,255 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:49,208 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:49,209 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:50,332 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:50,332 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:51,339 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:51,339 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 22:56:52,473 - Robo B encontrou caminho para bateria em (2, 6), próximo passo: (2, 5)
+2025-06-15 22:56:52,473 - Robo B encontrou outro robô (C) em (2, 5). Evitando...
+2025-06-15 23:05:17,622 - Robo B criado com F=3, E=36, V=2
+2025-06-15 23:05:18,234 - Robo B encontrou caminho para bateria em (3, 12), próximo passo: (1, 1)
+2025-06-15 23:05:18,234 - Robo B encontrou outro robô (C) em (1, 1). Evitando...
+2025-06-15 23:06:03,719 - Robo B criado com F=9, E=89, V=3
+2025-06-15 23:06:07,445 - Robo B encontrou caminho para bateria em (0, 1), próximo passo: (1, 1)
+2025-06-15 23:06:07,450 - Robo B moveu de (1, 0) para (1, 1). Energia: 88
+2025-06-15 23:06:14,289 - Robo B criado com F=8, E=99, V=1
+2025-06-15 23:06:14,763 - Robo B encontrou caminho para bateria em (4, 0), próximo passo: (2, 0)
+2025-06-15 23:06:14,763 - Robo B encontrou outro robô (C) em (2, 0). Evitando...
+2025-06-15 23:06:15,100 - Robo B encontrou caminho para bateria em (4, 0), próximo passo: (2, 0)
+2025-06-15 23:06:15,101 - Robo B encontrou outro robô (C) em (2, 0). Evitando...
+2025-06-15 23:06:15,340 - Robo B energia restante: 98
+2025-06-15 23:06:16,341 - Robo B energia restante: 97
+2025-06-15 23:06:17,342 - Robo B energia restante: 96
+2025-06-15 23:06:18,344 - Robo B energia restante: 95
+2025-06-15 23:06:19,346 - Robo B energia restante: 94
+2025-06-15 23:06:20,347 - Robo B energia restante: 93
+2025-06-15 23:06:21,347 - Robo B energia restante: 92
+2025-06-15 23:06:22,350 - Robo B energia restante: 91
+2025-06-15 23:06:23,351 - Robo B energia restante: 90
+2025-06-15 23:06:24,353 - Robo B energia restante: 89
+2025-06-15 23:10:27,192 - Robo B criado com F=10, E=84, V=4
+2025-06-15 23:10:42,421 - Robo B criado com F=9, E=24, V=2
+2025-06-15 23:10:43,136 - Robo B encontrou caminho para bateria em (1, 2), próximo passo: (1, 1)
+2025-06-15 23:10:43,147 - Robo B moveu de (1, 0) para (1, 1). Energia: 23
+2025-06-15 23:10:43,486 - Robo B energia restante: 22
+2025-06-15 23:10:44,487 - Robo B energia restante: 21
+2025-06-15 23:10:48,427 - Robo B energia restante: 20
+2025-06-15 23:10:49,428 - Robo B energia restante: 19
+2025-06-15 23:10:50,429 - Robo B energia restante: 18
+2025-06-15 23:10:51,430 - Robo B energia restante: 17
