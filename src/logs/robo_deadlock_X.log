@@ -1,0 +1,90 @@
+2025-06-16 10:57:25,210 - X posicionado em (2, 3)
+2025-06-16 10:57:25,211 - X aguardando na barreira...
+2025-06-16 10:57:25,214 - X tentando battery_mutex (3, 3)
+2025-06-16 10:57:25,214 - X obteve battery_mutex (3, 3)
+2025-06-16 10:57:26,215 - X tentando grid_mutex
+2025-06-16 11:39:05,388 - X posicionado em (2, 3)
+2025-06-16 11:39:05,393 - X aguardando na barreira...
+2025-06-16 11:39:05,399 - X tentando battery_mutex (3, 3)
+2025-06-16 11:39:05,399 - X obteve battery_mutex (3, 3)
+2025-06-16 11:39:06,400 - X tentando grid_mutex
+2025-06-16 11:48:13,154 - X posicionado em (2, 3)
+2025-06-16 11:48:13,156 - X aguardando na barreira...
+2025-06-16 11:48:13,157 - X tentando battery_mutex (3, 3)
+2025-06-16 11:48:13,157 - X obteve battery_mutex (3, 3)
+2025-06-16 11:48:14,158 - X tentando grid_mutex
+2025-06-16 11:48:19,758 - X posicionado em (2, 3)
+2025-06-16 11:48:19,760 - X aguardando na barreira...
+2025-06-16 11:48:19,760 - X tentando battery_mutex (3, 3)
+2025-06-16 11:48:19,763 - X obteve battery_mutex (3, 3)
+2025-06-16 11:48:20,764 - X tentando grid_mutex
+2025-06-16 11:51:40,028 - X posicionado em (2, 3)
+2025-06-16 11:51:40,031 - X aguardando na barreira...
+2025-06-16 11:51:40,033 - X tentando battery_mutex (3, 3)
+2025-06-16 11:51:40,033 - X obteve battery_mutex (3, 3)
+2025-06-16 11:51:41,034 - X tentando grid_mutex
+2025-06-16 12:06:44,647 - X posicionado em (2, 3)
+2025-06-16 12:06:44,649 - X aguardando na barreira...
+2025-06-16 12:06:44,651 - X tentando battery_mutex (3, 3)
+2025-06-16 12:06:44,651 - X obteve battery_mutex (3, 3)
+2025-06-16 12:06:45,652 - X tentando grid_mutex
+2025-06-16 12:10:37,417 - X posicionado em (2, 3)
+2025-06-16 12:10:37,418 - X aguardando na barreira...
+2025-06-16 12:10:37,424 - X tentando battery_mutex (3, 3)
+2025-06-16 12:10:37,426 - X obteve battery_mutex (3, 3)
+2025-06-16 12:10:38,427 - X tentando grid_mutex
+2025-06-16 12:10:39,886 - X finalizado.
+2025-06-16 12:12:57,786 - X posicionado em (2, 3)
+2025-06-16 12:12:57,787 - X aguardando na barreira...
+2025-06-16 12:12:57,789 - X tentando battery_mutex (3, 3)
+2025-06-16 12:12:57,789 - X obteve battery_mutex (3, 3)
+2025-06-16 12:12:58,790 - X tentando grid_mutex
+2025-06-16 12:13:01,202 - X finalizado.
+2025-06-16 12:24:43,615 - X posicionado em (2, 3)
+2025-06-16 12:24:43,618 - X aguardando na barreira...
+2025-06-16 12:24:43,620 - X tentando battery_mutex (3, 3)
+2025-06-16 12:24:43,620 - X obteve battery_mutex (3, 3)
+2025-06-16 12:24:44,620 - X tentando grid_mutex
+2025-06-16 12:24:47,204 - X finalizado.
+2025-06-16 12:37:46,879 - X posicionado em (2, 3)
+2025-06-16 12:37:46,880 - X aguardando na barreira...
+2025-06-16 12:37:46,913 - X tentando battery_mutex (3, 3)
+2025-06-16 12:37:46,913 - X obteve battery_mutex (3, 3)
+2025-06-16 12:37:47,914 - X tentando grid_mutex
+2025-06-16 12:46:40,807 - X finalizado.
+2025-06-16 12:50:21,217 - X posicionado em (2, 3)
+2025-06-16 12:50:21,218 - X aguardando na barreira...
+2025-06-16 12:50:21,219 - X tentando battery_mutex (3, 3)
+2025-06-16 12:50:21,220 - X obteve battery_mutex (3, 3)
+2025-06-16 12:50:22,220 - X tentando grid_mutex
+2025-06-16 12:50:22,886 - X finalizado.
+2025-06-16 13:01:46,429 - X posicionado em (2, 3)
+2025-06-16 13:01:46,430 - X aguardando na barreira...
+2025-06-16 13:01:46,433 - X tentando battery_mutex (3, 3)
+2025-06-16 13:01:46,434 - X obteve battery_mutex (3, 3)
+2025-06-16 13:01:47,434 - X tentando grid_mutex
+2025-06-16 13:01:59,088 - X finalizado.
+2025-06-16 13:14:36,621 - X posicionado em (2, 3)
+2025-06-16 13:14:36,622 - X aguardando na barreira...
+2025-06-16 13:14:36,626 - X tentando battery_mutex (3, 3)
+2025-06-16 13:14:36,626 - X obteve battery_mutex (3, 3)
+2025-06-16 13:14:37,627 - X tentando grid_mutex
+2025-06-16 13:14:40,234 - X finalizado.
+2025-06-16 14:51:19,833 - X posicionado em (2, 3)
+2025-06-16 14:51:19,841 - X aguardando na barreira...
+2025-06-16 14:51:19,842 - X tentando battery_mutex (3, 3)
+2025-06-16 14:51:19,842 - X obteve battery_mutex (3, 3)
+2025-06-16 14:51:20,843 - X tentando grid_mutex
+2025-06-16 14:51:50,135 - X finalizado.
+2025-06-16 15:40:26,805 - X posicionado em (2, 3)
+2025-06-16 15:40:26,806 - X aguardando na barreira...
+2025-06-16 15:40:26,816 - X tentando battery_mutex (3, 3)
+2025-06-16 15:40:26,817 - X obteve battery_mutex (3, 3)
+2025-06-16 15:40:27,817 - X tentando grid_mutex
+2025-06-16 15:40:40,063 - X finalizado.
+2025-06-16 15:52:05,335 - X posicionado em (2, 3)
+2025-06-16 15:52:05,336 - X aguardando na barreira...
+2025-06-16 15:52:05,339 - X tentando battery_mutex (3, 3)
+2025-06-16 15:52:05,339 - X obteve battery_mutex (3, 3)
+2025-06-16 15:52:06,340 - X tentando grid_mutex
+2025-06-16 15:52:07,741 - X finalizado.
