@@ -33,9 +33,12 @@ def main():
     processos = []
 
     # Inicia o processo de renderização do grid
+    '''
     p_viewer = Process(target=renderiza_grid, args=(memoria,))
     p_viewer.start()
-    processos.append(p_viewer)
+    processos.append(p_viewer)'''
+    # Removido para evitar conflito visual com curses (modo normal)
+
 
     # Cria o RoboJogador e inicia a thread sense_act
     jogador = RoboJogador('P', grid, memoria.robots_info, locks)
