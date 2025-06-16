@@ -1,0 +1,10 @@
+2025-06-16 00:17:04,199 - X posicionado em (2, 3)
+2025-06-16 00:17:04,201 - X aguardando na barreira...
+2025-06-16 00:17:04,202 - X tentando battery_mutex (3, 3)
+2025-06-16 00:17:04,203 - X obteve battery_mutex (3, 3)
+2025-06-16 00:17:05,211 - X tentando grid_mutex
+2025-06-16 00:18:28,521 - X posicionado em (2, 3)
+2025-06-16 00:18:28,522 - X aguardando na barreira...
+2025-06-16 00:18:28,531 - X tentando battery_mutex (3, 3)
+2025-06-16 00:18:28,532 - X obteve battery_mutex (3, 3)
+2025-06-16 00:18:29,535 - X tentando grid_mutex

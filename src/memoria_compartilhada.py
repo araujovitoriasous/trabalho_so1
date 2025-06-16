@@ -1,4 +1,4 @@
-from multiprocessing import Manager, Lock, Barrier
+from multiprocessing import Manager, Lock, Event
 
 class MemoriaCompartilhada:
     def __init__(self, qtd_robos=4):
@@ -15,12 +15,13 @@ class MemoriaCompartilhada:
         # Flags de controle do jogo (inicializado e vencedor)
         self.flags = self.manager.dict({'init_done': False, 'vencedor': None})
 
+        # Evento para sinalizar o fim do jogo
+        self.game_over_event = Event() # Novo: Evento para sinalizar o fim do jogo
+
         # Mutexes para sincronização
-        # Inicializa os locks
         self.grid_mutex = Lock()  # Protege o grid
         self.robots_mutex = Lock()  # Protege os dados dos robôs
         self.battery_mutexes = {}  # Mutexes para baterias
-
 
     def inicializar_baterias(self, posicoes_baterias):
         """
@@ -28,5 +29,5 @@ class MemoriaCompartilhada:
         Isso impede que dois robôs tentem pegar a mesma bateria ao mesmo tempo.
         """
         for pos in posicoes_baterias:
-            # Cada bateria terá seu próprio lock, sem usar o Manager
+            # Cada bateria terá seu próprio lock
             self.battery_mutexes[pos] = Lock()
