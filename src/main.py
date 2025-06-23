@@ -25,17 +25,13 @@ def main():
         x, y = random.randint(0, grid.width - 1), random.randint(0, grid.height - 1)
         if memoria.grid[y][x] == ' ':
             baterias.append((x, y))
-    grid.place_barreiras(barreiras)
-    grid.place_baterias(baterias)
+    with memoria.grid_mutex:
+        grid.place_barreiras(barreiras)
+        grid.place_baterias(baterias)
     memoria.inicializar_baterias(baterias)
 
     # Processos
     processos = []
-
-    # Inicia o processo de renderização do grid
-    p_viewer = Process(target=renderiza_grid, args=(memoria,))
-    p_viewer.start()
-    processos.append(p_viewer)
 
     # Cria o RoboJogador e inicia a thread sense_act
     jogador = RoboJogador('P', grid, memoria.robots_info, locks)
